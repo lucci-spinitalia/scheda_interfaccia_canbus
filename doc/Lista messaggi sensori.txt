@@ -1,0 +1,360 @@
+STRUTTURA FRAME:
+|HEADER|ADDRESS|LENGTH|MESSAGE ...|
+
+INTERFACCIA PC
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+RESET	0x24 0x00 0x00 0x00 0x00
+
+SASS 2300
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+HEADER: $ (0x24)
+ADDRESS: 0x611 
+
+0x24 0x06 0x11
+
+MESSAGGI INTERNI
+------------------------
+RESET 0x24 0x06 0x11 0x02 0x24 0x00
+
+#?(cr)	0x24 0x06 0x11 0x03 0x23 0x3F 0x0D
+	Returns version string of the embedded firmware in the microcontroller, for example "#SASS 2300 Version 1.26". The version
+	string, "1.26", will change as future versions of this code are released.
+	
+#B(cr)	0x24 0x06 0x11 0x03 0x23 0x42 0x0D
+	Return state of vaious hardware and software settings in 2 hex digits "#Bxx(cr)
+	0x01 = This bit high if the fan is on
+	0x02 = This bit is high if pumping fluid out of cyclone
+	0x04 = This bit is high if pump is providing makeup water to cyclone
+	0x08 = N/A
+	0x10 = N/A
+	0x20 = N/A
+	0x40 = This bit high if the fan hardware switch is on
+	0x80 = This bit high if the pump hardware switch is on
+	
+#C(cr) 	0x24 0x06 0x11 0x03 0x23 0x43 0x0D
+	Returns the current value of the counter used to time the automode and cleaning recipes
+	
+#Ddd(cr)	0x24 0x06 0x11 0x05 0x23 0x44 d d 0x0D
+	Returns value from HC908 A/D channel, where ddd represents the channle number (0-7). The first digit returned after the "D" is the
+	channel number, followed by the A/D value for that channel. For example, sending "#D3(cr)" will return the voltage from the
+	temperature sensor in the format "#D3ddd", where ddd represents the A/D value of the temperature.
+
+#F(cr)	0x24 0x06 0x11 0x03 0x23 0x46 0x0D
+	Returns current state of the fan in the form "#Fddd(cr)" where "ddd" is either "1" if the fan is on, or "0" if the fan is off
+	
+#F0(cr)	0x24 0x06 0x11 0x04 0x23 0x46 0x00 0x0D
+	Turn off the fan
+	
+#F1(cr)	0x24 0x06 0x11 0x04 0x23 0x46 0x01 0x0D
+	Turn on the fan
+	
+#G(cr)	0x24 0x06 0x11 0x03 0x23 0x47 0x0D
+	Returns current state of the sample pump in the format "#Gddd(cr)" where "ddd" is 0 (off) or 1 (on)
+	
+#G0(cr)	0x24 0x06 0x11 0x04 0x23 0x47 0x00 0x0D
+	Turn off sample pump
+	
+#G1(cr)	0x24 0x06 0x11 0x04 0x23 0x47 0x01 0x0D
+	Turn on sample pump
+	
+#H(cr)	0x24 0x06 0x11 0x03 0x23 0x48 0x0D
+	#H(cr) returns the battery type. For example, #H0 = No battery installed, #H1 = BA5590, 210 hours idle time, 13.00
+	hours fan at max speed, #H2 = BA5390, 308 hours idle time, 19.25 hours fan at max speed, #H3 = BA2590, 168
+	hours idle time, 10.50 hours fan at max speed, #Hd(cr) sets the battery type, where d is 0-3.
+	
+#I(cr)	0x24 0x06 0x11 0x03 0x23 0x49 0x0D
+	Returns decimal number between 0 and 255 which is an indication of how much fluid the optical sensor is currently
+	detecting circulating in the cyclone. This value is filtered to avoid excessive jitter.
+	
+#Jddd(cr) 	0x24 0x06 0x11 0x06 0x23 0x4A d d d 0x0D
+	Returns the current value for the "ddd" row of the calibration table, where "ddd" is a decimal value between 0
+	and 14. For example, "#J3" would return the current value stored in the fourth row of the calibration table in the 
+	format "#J3 ddd" where ddd is a decimal value representing the calibration value. This is the same value that you see
+	displayed in the Conversion Table window in the Windows software program. All of these values can be returned in a 
+	single string using the "#N" command (see below)
+	
+#Jddd ddd(cr)	0x24 0x06 0x11 0x0A 0x23 0x4A d d d 0x20 d d d 0x0D
+	Sets the current value for "ddd" row of the calibration table (0-14). For example, sending "#J3 44" would set the
+	fourth row of the calibration table to a value of 44. This value is stored in non-volatile memory and will be present
+	after rebooting the system. Changing this value may adversely affect the ecciciency of the sampler and it is 
+	therefore recommended that it not be changed from the factory setting
+
+#K(cr)	0x24 0x06 0x11 0x03 0x23 0x4B 0x0D
+	Returns the value for the number of cleaning cycles to be used in the cleaning recipe and the automode recipe
+	
+#L(cr)	0x24 0x06 0x11 0x03 0x23 0x4C 0x0D
+	Returns a decimal value between 0 and 255 which indicates the position of ghe sample control valve switch. This is a
+	three-position switch. A value of about "#L0(cr)" vould indicate that the switch is in the "Spigot" position, a value
+	of about "#L128(cr)" would indicate that the switch is in the "Standby" position, and a value of about "#L255(cr)" would
+	indicate that the valve is in the "Vial" position. But the sample control valvle switch position is ignored when 
+	running the cleaning routine.
+	
+#M(cr)	0x24 0x06 0x11 0x03 0x23 0x4D 0x0D
+	Returns the current liquid level set point specified in the "Set Level" box in the Windows program.
+	
+#Mddd(cr) 0x24 0x06 0x11 0x06 0x23 0x4D d d d 0x0D
+	Sets the current liquid lwvel set point, where "ddd" represents a decimal number between 0 and 255. Changing
+	this value may adversely affect the efficiency of the air sampler and it is therefore recommended that it not be
+	changed from the factory setting. This value is stored in non-volatile memory when the "#.(cr)" is sent (see below)
+	
+#N(cr)	0x24 0x06 0x11 0x03 0x23 0x4E 0x0D
+	Returns the calibration table data. For example, "#N0 0 0 8 12 22 40 58 77 89 107 114 120 126 132(cr)". This table
+	contains 15 calibration numbers separated with spaces. These values are set using the "#Jddd ddd(cr)" command
+	(see above). The calibration table is used to regulate the liquid level in the air sampler.
+	
+#O(cr)	0x24 0x06 0x11 0x03 0x23 0x4F 0x0D
+	#O(cr) returns the number of minutes that the fan has been running (0-65535)
+	
+#Q(cr)	0x24 0x06 0x11 0x03 0x23 0x51 0x0D
+	Returns current Fan motor speed setting.
+
+#Qddd(cr)	0x24 0x06 0x11 0x06 0x23 0x51 d d d 0x0D
+	Sets the fan motor speed, 0 (slowest) to 279 (fastest). This value is stored in non-volatile memory and will be present
+	after rebooting. Note that the fan motor speed is not linearly proportional to this number.
+	
+#SP(cr)	0x24 0x06 0x11 0x04 0x23 0x53 0x50 0x0D
+	Returns current peristaltic pump motor speed setting for pumping fluid out of the cyclone to either the vial or the spigot in back of the
+	enclosure.
+	
+#SPdddd(cr)	0x24 0x06 0x11 0x07 0x23 0x53 0x50 d d d d 0x0D
+	Sets the peristaltic pump motor speed for pumping fluid out of the cyclone to either the vial or the spigot in back of the enclosure, 0
+	(fastest to 1023 (slowest). This value is stored in non-volatile memory and will be present after rebooting.
+	
+#T(cr)	0x24 0x06 0x11 0x03 0x23 0x54 0x0D
+	Returns current number of seconds before the pump turns off.
+	
+#Tddd(cr)	0x24 0x06 0x11 0x06 0x23 0x54 d d d 0x0D
+	Runs the pump for the specified number of secondes (0 - 255 seconds), pumping fluid out of the cyclone to either the vial or the spigot in
+	back of the enclosure. For example, "#T10(cr) will turn on the pump for 10 seconds.
+	
+#U(cr)	0x24 0x06 0x11 0x03 0x23 0x55 0x0D
+	Returns state of various flags used in the cleaning portion of the automode recipe and the cleaning recipe, in 2 hex digits "#Uxx(cr)"
+	0x01 = This flag is hihg if the cleaning fan is running.
+	0x02 = This bit is high if the cleaning pump is running.
+	0x04 = This bit is high if the cleaning filling cyclon step is running.
+	0x10 = This bit is high if cleaning routine is running.
+	0x20 = N/A
+	0x40 = N/A
+	0x80 = N/A
+	
+#V(cr)	0x24 0x06 0x11 0x03 0x23 0x56 0x0D
+	#V(cr) returns the battery capacity remaining in minutes of idle time. Meaning the number of minutes that the battery can run the unit if
+	it is idle (fan and pumps off). #Vddddd(cr) sets the battery capacity where ddddd is a decimal number of idle minutes (0-65535). The idle
+	capacities in minutes for the various batteries are: #V1 = 12600, #V2=18480, #V3=10080.
+	
+#W(cr)	0x24 0x06 0x11 0x03 0x23 0x57 0x0D
+	Returns the peristaltic pump time out value. This is the number of seconds that the peristaltic pump will run when pumping a sample
+	out of the unit if the pump has been turned on using the hardware switch. This command has no effect on the pump when activated
+	usin the "#G1(cr)" command (see above)
+	
+#Wddd	0x24 0x06 0x11 0x06 0x23 0x57 d d d 0x0D
+	Sets the peristaltic pump time out value (0 to 255 seconds).
+	
+#X(cr)	0x24 0x06 0x11 0x03 0x23 0x58 0x0D
+	Returns the state of the staus LED enable. "#X0(cr)" indicates that the status LED is enabled, and "#X1(cr)" indicates that it is disabled.
+	The status LED is soldered to the PCB on the first 2300 units and is not visible to the user. The yellow LED on the lid on these units is
+	driven off the spare valve #1 driver. This problem was corrected in early 2008 so that this command will now control the yellow LED on
+	the lid of the enclosure.
+	
+#X0(cr)	0x24 0x06 0x11 0x04 0x23 0x58 0x00 0x0D
+	Enable status LED
+	
+#X1(cr)	0x24 0x06 0x11 0x04 0x23 0x58 0x01 0x0D
+	Disable status LED
+	
+#Y(cr)	0x24 0x06 0x11 0x03 0x23 0x59 0x0D
+	Returns the output voltage of the voltage regulator. For example, "#Y118(cr)" vould be 11.8V
+	
+#Z(cr)	0x24 0x06 0x11 0x03 0x23 0x5A 0x0D
+	Returns the unregulated supply voltage. For example. "#Z242(cr)" would be 24.2V. This is the voltage from either the battery or the 
+	wall supply that is input to the voltage regulator. The battery and wall supply are isolated from one another by Schottky diodes so the 
+	voltage returned by this command will be a diode drop less than the battery or wall supply voltages. The voltage drop across these
+	Schottky diodes varies from about 0.3V with the fan off to 0.6V with the fan on.
+	
+#a(cr)	0x24 0x06 0x11 0x03 0x23 0x61 0x0D
+	Returns the mode that the air sampler is in. "#a0(cr)" indicates that the sampler is in normal mode. In this mode the fan will run when
+	you turn on the fan hardware switch and shut off when you turn it off. "#a1(cr)" indicates that the sampler is in automatic mode. In this 
+	mode if you turn on the fan hardware switch the fan will run a recipe determined by the commands #b, #c, #d, #g, #i, #j, #k, #l, #y, #z
+	parameters discussed below. Automatic mode has no effect if you operate the fan via the "#F1(cr)" command.
+	
+#a0(cr)	0x24 0x06 0x11 0x04 0x23 0x61 0x00 0x0D
+	"#a0(cr)" puts the air sampler in normal mode
+	
+#a1(cr)	0x24 0x06 0x11 0x04 0x23 0x61 0x01 0x0D
+	"#a1(cr)" puts the air sampler in automatic mode
+	
+#b(cr)	0x24 0x06 0x11 0x03 0x23 0x62 0x0D
+	Returns the time to run the pump in seconds if the unit is in automatic mode (see #a above)
+	
+#bddd(cr)	0x24 0x06 0x11 0x06 0x23 0x62 d d d 0x0D
+	"#bddd(cr)" sets the time to run the peristaltic pump in seconds if in automatic mode (0 - 255). For example, "#b10(cr)" will run the
+	peristaltic pump for 10 seconds each cycle
+	
+#c(cr)	0x24 0x06 0x11 0x03 0x23 0x63 0x0D
+	Returns the time to run the fan in seconds if the unit is in automatic mode (see #a above)
+	
+#cddddd(cr) 0x24 0x06 0x11 0x08 0x23 0x63 d d d d d 0x0D
+	Sets the total fan time for one cycle of the automatic mode (0 - 65534 seconds). For example, "c120(cr)" will run the fan for time of 2 minutes when in
+	automatic mode.
+	
+#d(cr)	0x24 0x06 0x11 0x03 0x23 0x64 0x0D
+	Returns flag that indicates if the fan will shutoff while the peristaltic pump is in automatic mode (see #a1 above). #d1(cr) indicates the fan
+	will keep running when the peristaltic pump is running and the air sampler is in automatic mode. #d0(cr) indicates the fan will shut off
+	while the pump is running if the air sampler is in automatic mode.
+	
+#d0(cr)	0x24 0x06 0x11 0x04 0x23 0x64 0x00 0x0D
+	Sets the flag that causes the fan to shut off when the peristaltic pump is running and the air sampler is in automatic mode.
+	
+#d1(cr)	0x24 0x06 0x11 0x04 0x23 0x64 0x01 0x0D
+	Sets the flag that causes the fan to keep running when the peristaltic pump is running and the air sampler is in automatic mode
+	
+#e(cr)	0x24 0x06 0x11 0x03 0x23 0x65 0x0D
+	Returns initial fill time in thenths of a second. This is the time that the cyclone gets filled with fluid when the fan has just been turned
+	on. This allow the cyvlone to quickly come up to its required operating fluid volume.
+	
+#eddd(cr)	0x24 0x06 0x11 0x06 0x23 0x65 d d d 0x0D
+	Sets initial fill time in tenths of seconds (0 - 65536). For example, "#e180(cr)" would set the initial fill time to 18.0 seconds.
+	
+#f(cr)	0x24 0x06 0x11 0x03 0x23 0x66 0x0D
+	#f(cr) returns the current baud rate setting for serial communication
+	
+#f9600(cr)	0x24 0x06 0x11 0x07 0x23 0x66 0x39 0x36 0x30 0x30 0x0D
+	Sets the baud rate to 9600 baud
+	
+#f57600(cr)	0x24 0x06 0x11 0x08 0x23 0x66 0x35 0x37 0x36 0x30 0x30 0x0D
+	Sets the baud rate to 57600 baud
+	
+#g(cr)	0x24 0x06 0x11 0x03 0x23 0x67 0x0D
+	Returns auto mode initial delay time (see #a above)
+	
+#gddddd(cr)	0x24 0x06 0x11 0x08 0x23 0x67 d d d d d 0x0D
+	Sets auto mode initial delay time(0-65535). This is time in seconds to wait before starting first auto mode fan/pump cycle. For
+	example, "#g10(cr)" will set auto mode initial delay time to 10 seconds.
+	
+#h(cr)	0x24 0x06 0x11 0x03 0x23 0x68 0x0D
+	This command starts the same automated cleaning routine that gets run if the valve switch is toggled three times within three seconds or 
+	if Run Cleaning Cycle is selected from the Options menu. The parameters that control this cleaning routine are set using the #i, #j,
+	#k, #l, and #o commands (see below). This routine automatically switches the sample control valve to the spigot position when
+	running the fan/pump cycles, and then to the vial position to clean out the vial at the end of the routine.
+	
+#i(cr)	0x24 0x06 0x11 0x03 0x23 0x69 0x0D
+	Returns the time in seconds that the fan is run for each cycle of the cleaning routine.
+	
+#iddd(cr)	0x24 0x06 0x11 0x06 0x23 0x65 d d d 0x0D
+	Sets the time in seconds that the fan is run for eache cycle of the cleaning routine.
+	
+#j(cr)	0x24 0x06 0x11 0x03 0x23 0x6A 0x0D
+	Returns the time in seconds that the pump is run for each cycle of the cleaning routine.
+	
+#jddd(cr)	0x24 0x06 0x11 0x06 0x23 0x6A d d d 0x0D
+	Sets the time in seconds that the pump is run for each cycle of the cleaning routine (0 - 255)
+	
+#k(cr)	0x24 0x06 0x11 0x03 0x23 0x6B 0x0D
+	Returns the number of cycles that the cleaning routine gets repeated before automatically stopping 
+	
+#kddd(cr)	0x24 0x06 0x11 0x06 0x23 0x6B d d d 0x0D
+	Sets the number of cycles that the cleaning routine gets repeated before automatically stopping (1 - 255)
+	
+#l(cr)	0x24 0x06 0x11 0x03 0x23 0x6C 0x0D
+	Returns the time in tenths of seconds that the pump is run for at the beginning of each cleaning cycle to initially fill the cylcone
+	
+#lddddd(cr)	0x24 0x06 0x11 0x08 0x23 0x6C d d d d d 0x0D
+	Sets the time in tenths of seconds that the pump is run for at the beginning of each cleaning cycle to initially fill the cylcone (0 - 
+	32767). This parameters determines the initial fill volume of the cyclone when the fan is first started up. Setting it too low will result
+	in the cyclone taking longer to come up to the operating set point, and setting it too high can result in flooding.
+	
+#n(cr)	0x24 0x06 0x11 0x03 0x23 0x6E 0x0D
+	Halts the automated cleaning routine that gets run if the valve switch is toggled three times within three seconds, or the Run
+	Cleaning Cycle option is selected from the Utilities menu, or if the "#h" command is sent over RS-232 (see above)
+	
+#o(cr)	0x24 0x06 0x11 0x03 0x23 0x6F 0x0D
+	Returns the number of tenths of seconds to run fill pump at end of cleaning routine. This fluid is used to flush out the sample vial lines.
+	
+#oddddd(cr)	0x24 0x06 0x11 0x08 0x23 0x6F d d d d d 0x0D
+	Returns the number of tenths of seconds to run fill pump at end of cleaning routine. The sample valve is automatically switched to the
+	vial posizion while this fluid is being pumped into the cyclone. This fluid then gets pumped out sample vial line, cleaning out the line and 
+	diluting any sample present in vial. At the end of this the cleaning routine is complete and the sample valve will automatically switch
+	back to the position correspoinding to the position of the sample control switch on the top of the case.
+	
+#s(cr)	0x24 0x06 0x11 0x03 0x23 0x73 0x0D
+	Returns the position of the fluid valve
+	#s0(cr) = Spigot
+	#s1(cr) = Standby
+	#s2(cr) = Vial
+	
+#u(cr)	0x24 0x06 0x11 0x03 0x23 0x75 0x0D
+	Returns eight ASCII characters that sould contain the unit's serial number.
+	
+#uaaaaaaaa(cr)	0x24 0x06 0x11 0x0B 0x23 0x75 a a a a a a a a 0x0D
+	Saves the eight ASCII characters (aaaaaaaa) which contain the serial number in flash memory in the air sampler
+	
+#v(cr)	0x24 0x06 0x11 0x03 0x23 0x76 0x0D
+	Gets or sets the auto mode pause time (0 - 600000 sec). For example, #v600(cr) wuold set the pause time to 600 seconds
+	
+#w(cr)	0x24 0x06 0x11 0x03 0x23 0x77 0x0D
+	Runs and halts automode recipe. If auto mode is not running when this command is issued, it will first be enabled by (#a1) and then
+	start running. When done, the unit will remain in the automode enabled state.
+	
+#y(cr)	0x24 0x06 0x11 0x03 0x23 0x79 0x0D
+	Returns auot mode cleaning cycle option (see #a above). #y1(cr) sets the autoclean flag to true which causes the cleaning routine to
+	run at the end of each fan/pump cycle if running in auto mode. #y0(cr) sets the atuclean flag to false.
+	
+#z(cr)	0x24 0x06 0x11 0x03 0x23 0x7A 0x0D
+	Returns auto mode number of cycles to run (see #a above). #zddd(cr) sets auto mode number of cycles (0 - 65535). This is the
+	number of fan/pump cycles to run and cleaning cycles too if specified (see #y above). For example, "#x10(cr)" will set auto mode cycles to 
+	10
+	
+#.(cr)	0x24 0x06 0x11 0x03 0x23 0x2E 0x0D
+	Saves the current operating point for the fluid level in the cyclone that is specified by the #M(cr) command to non-volatile memory so
+	that it will be present on subsequent boot ups.
+	
+#<(cr) 	0x24 0x06 0x11 0x03 0x23 0x3C 0x0D
+	Gets or sets the value of the auto mode recipe number of cycles
+	
+#>(cr) 0x24 0x06 0x11 0x03 0x23 0x3E 0x0D
+	Gets the status of the flags used to run the auto mode recipe, in 2 hex digirs "#>xx(cr)"
+	0x01 = This bit is high if auto mode initial delay is running
+	0x02 = This bit is hifh if auto mode fan is running
+	0x04 = This bit is high if auto mode pump is running
+	0x08 = This bit is high if auto mode pause is running
+	0x10 = This bit is high if auto mode cleaning fan is running
+	0x20 = This bit is high if auto mode cleaning pump is running
+	0x40 = This bit is high if auto mode recipe is running
+	0x80 = N/A
+	
+IDENTIFINDER
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+HEADER: $ (0x24)
+ADDRESS: 0x632 
+
+0x24 0x06 0x32
+
+MESSAGGI INTERNI
+------------------------
+RESET 0x24 0x06 0x32 0x02 0x24 0x00
+
+
+
+LASER RANGE FINDER SICK
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+HEADER: $ (0x24)
+ADDRESS: 0x4FF
+
+0x24 0x04 0xFF
+
+<stx>sMN SetAccessMode 03 F4724744<etx>
+0x02 0x73 0x4D 0x4E 0x20 0x53 0x65 0x74 0x41 0x63 0x63 0x65 0x73 0x73 0x4D 0x6F 0x64 0x65 0x20 0x30 0x33 0x20 0x46 0x34 0x37 0x32 0x34 0x37 0x34 0x34 0x03
+  Login as Authorize Client (password client)
+
+<stx>sRN LMPscancfg<etx>
+0x02 0x73 0x52 0x4e 0x20 0x4c 0x4d 0x50 0x73 0x63 0x61 0x6e 0x63 0x66 0x67 0x03
+  Request LMS configuration
+  
+<stx>sMN LMCstartmeas<etx>
+0x02 0x73 0x4D 0x4E 0x20 0x4C 0x4D 0x43 0x73 0x74 0x61 0x72 0x74 0x6D 0x65 0x61 0x73 0x03
+  Start measure
+
+<stx>sRN LMDscandata<etx>
+0x02 0x73 0x52 0x4E 0x20 0x4C 0x4D 0x44 0x73 0x63 0x61 0x6E 0x64 0x61 0x74 0x61 0x03
+  Request for one scan data
+

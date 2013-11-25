@@ -1,0 +1,20 @@
+Specifications:
+
+Can handle up to 1Mbit/s CAN bitrate, though not at 100% busload!
+Industrial Temp range -40C to +85C
+Philips SJA1000 CAN Controller running at 16Mhz
+Philips 82C251 CAN Tranceiver (Fully Compatible with ISO 11898-24V)
+Compliant to CAN 2.0A (11bit ID's) and CAN 2.0B (29bit ID's)
+Supports RTR frames
+32 CAN frames deep FIFO buffer for incomming frames in CANUSB firmware
+Time Stamp option in mS for incomming frames
+CANbus connection according to CiA DS102-1 standard
+Standard DB9 RS232 connection, TXD, RXD, GND (NO TTL LEVELS!)
+Power supplied via CAN connector pin 3 & 9 (6-16VDC)
+Green LED for CAN activity
+Green LED for RS232 activity
+Red LED for CAN error activity
+Yellow LED for operational status
+Firmware updatable via RS232
+CE Approved
+RoHS & WEEE Compliant

@@ -1,0 +1,18 @@
+Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 774 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 774 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 779 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 779 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 784 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 784 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 789 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 789 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 794 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 794 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 799 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 799 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 804 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 804 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 809 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 809 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 814 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c 814 : type qualifier mismatch in assignment

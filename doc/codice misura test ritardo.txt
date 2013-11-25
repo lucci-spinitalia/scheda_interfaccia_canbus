@@ -1,0 +1,54 @@
+void can_uart_loop(void)
+{
+  unsigned char return_value;
+  static unsigned long int timer_value = 0;	//remove
+  unsigned int timer_value_temp;	//remove
+
+  can_uart_message_read_from_uart();
+
+  T0CONbits.TMR0ON = 1;
+
+  can_uart_message_read_from_can();
+
+  T0CONbits.TMR0ON = 0;
+
+  timer_value_temp = TMR0L;
+  timer_value_temp |= (TMR0H << 8);
+  
+  if(timer_value_temp > timer_value)
+  {
+    timer_value = timer_value_temp;
+    debug_buffer_tx_load(return_value, (timer_value >> 8));
+    debug_buffer_tx_load(return_value, timer_value);
+  }
+
+  TMR0L = 0;
+  TMR0H = 0;
+
+  // Warning: this function can handle one message,so if the load ones update
+  // the buffer with two or more message, the send function cannot flush them
+  can_buffer_send();
+
+  // if interrupt is disabled then polling send function for uart
+  if(!uart_interrupt_tx)
+    uart_buffer_send();
+
+  // Manage can error
+  if(can_error_handle(error_message, &error_message_length))
+  {
+	led_st3 = 1;
+    debug_buffer_tx_seq_load(return_value, error_message, error_message_length);
+  }
+
+  // Manage uart error
+  uart_error_handle(return_value, error_message, &error_message_length);
+  if(return_value)
+  {
+    led_st3 = 1;
+    debug_buffer_tx_seq_load(return_value, error_message, error_message_length);
+  }
+
+  // if interrupt is disabled then polling send function for uart
+  if(!debug_interrupt_tx)
+    debug_buffer_send();
+}

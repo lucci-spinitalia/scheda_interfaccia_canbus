@@ -1,0 +1,15 @@
+#define SOFTRST 0x24
+#define PACON2 	0x18
+#define TXSTBL 	0x2E
+#define RFCTL	0x36
+#define BBREG2  0x3A
+#define	BBREG6	0x3E
+#define	CCAEDTH 0x3F
+#define RFCON0  0x200
+#define RFCON1  0x201
+#define RFCON2  0x202
+#define RFCON3  0x203
+#define RFCON6  0x206
+#define RFCON7  0x207
+#define RFCON8  0x208
+#define SLPCON1 0x220

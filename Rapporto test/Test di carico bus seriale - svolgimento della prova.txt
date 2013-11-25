@@ -1,0 +1,16 @@
+Lo scopo di questo test è verificare il carico che può reggere la scheda di interfaccia CANBus.
+Per effettuare la prova ci si è avvalsi dei seguenti strumenti:
+
+	- generatore di traffico uart: scheda PICDEM EXPLORER HPC con microcontrollore PIC18F8722 e quarzo da 10 MHz
+	- scheda di interfaccia CANBus: la scheda sotto test
+	- convertitore canbus-usb: scheda di sviluppo MCP2515 della Microchip
+	
+Il setup della prova è consistito del generatore di traffico collegato alla scheda di interfaccia canbus, mentre quest'ultima è stata collegata a sua
+volta al convertitore canbus-usb che ha avuto la funzione di interfaccia con il pc.
+
+Tramite oppurtuna variazione del firmware, il generatore di traffico ha prodotto diverse situazioni, in cui le variabili sono state la quantità di byte
+inviati contemporaneamente ed il numero di messaggi distanziati di un certo intervallo. Per creare delle distanze temporali precise è stato sfruttato
+il timer interno.
+Il convertitore canbus-usb ha il compito di leggere l'uscita e visualizzarla su schermo, così da poter verificare l'effettiva ricezione di tutti i 
+pacchetti. Si è fatto uso del software fornito in dotazione alla scheda che implementa delle utili funzionalità, come il tempo intercorso tra un 
+pacchetto e l'altro. Questo consente di fare una stima sulla latenza media della scheda.

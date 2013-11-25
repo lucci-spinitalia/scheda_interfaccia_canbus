@@ -1,0 +1,24 @@
+	FW: cartella generale per il firmware della scheda
+	|
+	- intermediary: cartella per i file intermedi di compilazione
+		|
+		- main.o
+	- output: file di output compreso .hex
+		|
+		- interfaccia_canbus.cof
+		- interfaccia_canbus.hex
+		- interfaccia_canbus.map
+	- system: file di sistema per il progetto
+		|
+		- interrupt: file per la gestione degli interrupt
+			|
+			- interrupt.c
+			- interrupt.h
+		- linker: copia locale del linker usato dal compilatore
+			|
+			- 18f46k80.lkr
+		- io_cfg.h: definizione della configurazione hardware del microcontrollore
+		- versione.h: definizione della versione corrente del programma
+	-user: file per il codice utente
+		- global.h: definizione delle variabili globali
+		

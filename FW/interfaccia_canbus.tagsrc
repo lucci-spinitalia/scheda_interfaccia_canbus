@@ -1,0 +1,15 @@
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\main.c
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\system\interrupt\interrupt.c
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can.c
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\global.h
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\main.h
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\system\version.h
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\system\interrupt\interrupt.h
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.h
+D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can.h

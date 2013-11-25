@@ -1,0 +1,512 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+B0::0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	48;"	d	line:48
+B1::1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	49;"	d	line:49
+B2::2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	50;"	d	line:50
+B3::3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	51;"	d	line:51
+B4::4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	52;"	d	line:52
+B5::5	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	53;"	d	line:53
+CAN_1000kbps::3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	117;"	d	line:117
+CAN_125kbps::0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	120;"	d	line:120
+CAN_250kbps::1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	119;"	d	line:119
+CAN_500kbps::2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	118;"	d	line:118
+CAN_ALL_MESSAGE_ACCEPTED::0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	42;"	d	line:42
+CAN_BUFFER_SIZE_RX::10	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	33;"	d	line:33
+CAN_BUFFER_SIZE_TX::2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	32;"	d	line:32
+CAN_CONFIG::CAN_INTERRUPT_TX_ALL_ON|CAN_IN	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	109;"	d	line:109
+CAN_CONFIGURATION_OP::4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	30;"	d	line:30
+CAN_CONFIG_PROG::CAN_INTERRUPT_PROG_ALL_ON|CAN_	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	110;"	d	line:110
+CAN_DISABLE_SLEEP_OP::1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	33;"	d	line:33
+CAN_INTERRUPT_ERROR_OFF::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	100;"	d	line:100
+CAN_INTERRUPT_ERROR_ON::0b00100000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	99;"	d	line:99
+CAN_INTERRUPT_MESSAGE_ERROR_OFF::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	105;"	d	line:105
+CAN_INTERRUPT_MESSAGE_ERROR_ON::0b10000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	103;"	d	line:103
+CAN_INTERRUPT_PROG0_ON::0b00000100	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	76;"	d	line:76
+CAN_INTERRUPT_PROG1_ON::0b00001000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	77;"	d	line:77
+CAN_INTERRUPT_PROG2_ON::0b00010000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	78;"	d	line:78
+CAN_INTERRUPT_PROG3_ON::0b00100000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	79;"	d	line:79
+CAN_INTERRUPT_PROG4_ON::0b01000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	80;"	d	line:80
+CAN_INTERRUPT_PROG5_ON::0b10000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	81;"	d	line:81
+CAN_INTERRUPT_PROG_ALL_OFF::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	82;"	d	line:82
+CAN_INTERRUPT_PROG_ALL_ON::0b11111100	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	75;"	d	line:75
+CAN_INTERRUPT_RX	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	114;"	d	line:114
+CAN_INTERRUPT_RX0_ON::0b00000001	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	86;"	d	line:86
+CAN_INTERRUPT_RX1_ON::0b00000010	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	85;"	d	line:85
+CAN_INTERRUPT_RX_ALL_OFF::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	87;"	d	line:87
+CAN_INTERRUPT_RX_ALL_ON::0b00000011	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	84;"	d	line:84
+CAN_INTERRUPT_TX	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	113;"	d	line:113
+CAN_INTERRUPT_TX0_ON::0b00000100	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	92;"	d	line:92
+CAN_INTERRUPT_TX1_ON::0b00001000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	93;"	d	line:93
+CAN_INTERRUPT_TX2_ON::0b00010000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	94;"	d	line:94
+CAN_INTERRUPT_TX_ALL_OFF::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	95;"	d	line:95
+CAN_INTERRUPT_TX_ALL_ON::0b00011100	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	91;"	d	line:91
+CAN_INTERRUPT_WAKE_UP_ACTIVITY_OFF::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	102;"	d	line:102
+CAN_INTERRUPT_WAKE_UP_ACTIVITY_ON::0b01000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	101;"	d	line:101
+CAN_LISTEN_ONLY_OP::3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	31;"	d	line:31
+CAN_LOOPBACK_OP::2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	32;"	d	line:32
+CAN_MESSAGE	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	127;"	t	line:127
+CAN_MESSAGE	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	151;"	t	line:151
+CAN_MESSAGE_STRUCT	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	42;"	s	line:42	file:
+CAN_MESSAGE_STRUCT	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	95;"	s	line:95
+CAN_MESSAGE_STRUCT	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	133;"	s	line:133
+CAN_NORMAL_OP::0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	34;"	d	line:34
+CAN_ONLY_EXID_ACCEPTED::1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	43;"	d	line:43
+CAN_PROG_B0_RX::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	58;"	d	line:58
+CAN_PROG_B0_TX::0b00000100	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	65;"	d	line:65
+CAN_PROG_B1_RX::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	59;"	d	line:59
+CAN_PROG_B1_TX::0b00001000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	66;"	d	line:66
+CAN_PROG_B2_RX::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	60;"	d	line:60
+CAN_PROG_B2_TX::0b00010000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	67;"	d	line:67
+CAN_PROG_B3_RX::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	61;"	d	line:61
+CAN_PROG_B3_TX::0b00100000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	68;"	d	line:68
+CAN_PROG_B4_RX::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	62;"	d	line:62
+CAN_PROG_B4_TX::0b01000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	69;"	d	line:69
+CAN_PROG_B5_RX::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	63;"	d	line:63
+CAN_PROG_B5_TX::0b10000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	70;"	d	line:70
+CAN_PROG_Bn_RX::0b00000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	64;"	d	line:64
+CAN_PROG_Bn_TX::0b11111100	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	71;"	d	line:71
+CAN_RX_FILTER1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	68;"	e	line:68	enum:CAN_RX_FLAGS
+CAN_RX_FILTER10	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	77;"	e	line:77	enum:CAN_RX_FLAGS
+CAN_RX_FILTER11	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	78;"	e	line:78	enum:CAN_RX_FLAGS
+CAN_RX_FILTER12	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	79;"	e	line:79	enum:CAN_RX_FLAGS
+CAN_RX_FILTER13	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	80;"	e	line:80	enum:CAN_RX_FLAGS
+CAN_RX_FILTER14	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	81;"	e	line:81	enum:CAN_RX_FLAGS
+CAN_RX_FILTER15	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	82;"	e	line:82	enum:CAN_RX_FLAGS
+CAN_RX_FILTER16	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	83;"	e	line:83	enum:CAN_RX_FLAGS
+CAN_RX_FILTER2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	69;"	e	line:69	enum:CAN_RX_FLAGS
+CAN_RX_FILTER3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	70;"	e	line:70	enum:CAN_RX_FLAGS
+CAN_RX_FILTER4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	71;"	e	line:71	enum:CAN_RX_FLAGS
+CAN_RX_FILTER5	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	72;"	e	line:72	enum:CAN_RX_FLAGS
+CAN_RX_FILTER6	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	73;"	e	line:73	enum:CAN_RX_FLAGS
+CAN_RX_FILTER7	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	74;"	e	line:74	enum:CAN_RX_FLAGS
+CAN_RX_FILTER8	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	75;"	e	line:75	enum:CAN_RX_FLAGS
+CAN_RX_FILTER9	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	76;"	e	line:76	enum:CAN_RX_FLAGS
+CAN_RX_FILTER_BITS	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	66;"	e	line:66	enum:CAN_RX_FLAGS
+CAN_RX_FLAGS	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	64;"	g	line:64
+CAN_RX_INVALID_MSG	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	87;"	e	line:87	enum:CAN_RX_FLAGS
+CAN_RX_OVERFLOW	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	85;"	e	line:85	enum:CAN_RX_FLAGS
+CAN_RX_RTR_FRAME	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	91;"	e	line:91	enum:CAN_RX_FLAGS
+CAN_RX_XTD_FRAME	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	89;"	e	line:89	enum:CAN_RX_FLAGS
+CAN_STATUS	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	39;"	s	line:39	file:
+CAN_STATUS	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	123;"	s	line:123
+CRYSTAL_FREQUENCY_MHZ::16	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	29;"	d	line:29
+ENHANCED_FIFO_MODE::2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	39;"	d	line:39
+ENHANCED_LEGACY_MODE::1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	38;"	d	line:38
+FOSC_MHZ::CRYSTAL_FREQUENCY_MHZ	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	33;"	d	line:33
+FOSC_MHZ::CRYSTAL_FREQUENCY_MHZ*4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	31;"	d	line:31
+HEADER::'$'	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	45;"	d	line:45
+INPUT_PIN::1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	38;"	d	line:38
+INTERRUPT_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\interrupt\interrupt.h	22;"	d	line:22
+LEGACY_MODE::0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	37;"	d	line:37
+MAX3160_DISABLE1::(max3160_shdn1=0)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	130;"	d	line:130
+MAX3160_DISABLE2::(max3160_shdn2=0)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	131;"	d	line:131
+MAX3160_ENABLE1::(max3160_shdn1=1)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	128;"	d	line:128
+MAX3160_ENABLE2::(max3160_shdn2=1)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	129;"	d	line:129
+MAX3160_ENABLE_RS232_1::(max3160_rs4851=0)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	140;"	d	line:140
+MAX3160_ENABLE_RS232_2::(max3160_rs4852=0)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	141;"	d	line:141
+MAX3160_ENABLE_RS485_1::(max3160_rs4851=1)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	138;"	d	line:138
+MAX3160_ENABLE_RS485_2::(max3160_rs4852=1)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	139;"	d	line:139
+MAX3160_FULL_DUPLEX1::(max3160_full1=0)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	143;"	d	line:143
+MAX3160_FULL_DUPLEX2::(max3160_full2=0)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	144;"	d	line:144
+MAX3160_HALF_DUPLEX1::(max3160_full1=1)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	145;"	d	line:145
+MAX3160_HALF_DUPLEX2::(max3160_full2=1)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	146;"	d	line:146
+MAX3160_SLEW_CRTL_OFF1::(max3160_fast1=1)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	133;"	d	line:133
+MAX3160_SLEW_CRTL_OFF2::(max3160_fast2=1)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	134;"	d	line:134
+MAX3160_SLEW_CRTL_ON1::(max3160_fast1=0)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	135;"	d	line:135
+MAX3160_SLEW_CRTL_ON2::(max3160_fast2=0)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	136;"	d	line:136
+MCP2551_TERMINATOR_DISABLE::(can_terminator=0)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	157;"	d	line:157
+MCP2551_TERMINATOR_ENABLE::(can_terminator=1)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	156;"	d	line:156
+OUTPUT_PIN::0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	39;"	d	line:39
+ROBOTIC_ARM::0x570	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	38;"	d	line:38
+ROBOTIC_ARM_G1::0x571	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	39;"	d	line:39
+ROBOTIC_ARM_G2::0x572	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	40;"	d	line:40
+ROBOTIC_ARM_G3::0x573	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	41;"	d	line:41
+ROBOTIC_ARM_G4::0x574	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	42;"	d	line:42
+ROBOTIC_ARM_G5::0x575	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	43;"	d	line:43
+ROBOTIC_ARM_G6::0x576	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	44;"	d	line:44
+ROBOTIC_ARM_GRIPPER::0x571	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	45;"	d	line:45
+RXBnCON	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	74;"	m	line:74	file:
+RXBnCON	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	116;"	m	line:116
+RXBn_list	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	76;"	v	line:76
+RXF0_ON::0b0000000000000001	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	38;"	d	line:38
+RXF10_ON::0b0000010000000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	48;"	d	line:48
+RXF11_ON::0b0000100000000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	49;"	d	line:49
+RXF12_ON::0b0001000000000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	50;"	d	line:50
+RXF13_ON::0b0010000000000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	51;"	d	line:51
+RXF14_ON::0b0100000000000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	52;"	d	line:52
+RXF15_ON::0b1000000000000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	53;"	d	line:53
+RXF1_ON::0b0000000000000010	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	39;"	d	line:39
+RXF2_ON::0b0000000000000100	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	40;"	d	line:40
+RXF3_ON::0b0000000000001000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	41;"	d	line:41
+RXF4_ON::0b0000000000010000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	42;"	d	line:42
+RXF5_ON::0b0000000000100000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	43;"	d	line:43
+RXF6_ON::0b0000000001000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	44;"	d	line:44
+RXF7_ON::0b0000000010000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	45;"	d	line:45
+RXF8_ON::0b0000000100000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	46;"	d	line:46
+RXF9_ON::0b0000001000000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	47;"	d	line:47
+RXF_ALL_OFF::0b0000000000000000	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	54;"	d	line:54
+RXF_ALL_ON::0b1111111111111111	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	37;"	d	line:37
+RXFnSIDH	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	62;"	m	line:62	file:
+RXFn_list	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	64;"	v	line:64
+RX_B0::6	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	54;"	d	line:54
+RX_B1::7	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	55;"	d	line:55
+SENSOR_ALL::0x600	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	47;"	d	line:47
+SENSOR_BWA::0x610	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	48;"	d	line:48
+SENSOR_BWA_SASS2300::0x611	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	49;"	d	line:49
+SENSOR_CWA_TIC::0x620	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	50;"	d	line:50
+SENSOR_CWA_TIC_CAM::0x621	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	51;"	d	line:51
+SENSOR_CWA_TIC_CHEMPRO100::0x622	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	52;"	d	line:52
+SENSOR_CWA_TIC_MULTIRAEPLUS::0x623	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	53;"	d	line:53
+SENSOR_EXP::0x640	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	57;"	d	line:57
+SENSOR_ON_BOARD_LASER_RANGE_FINDER::0x4FF	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	32;"	d	line:32
+SENSOR_RWA::0x630	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	54;"	d	line:54
+SENSOR_RWA_ANPDR77::0x631	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	55;"	d	line:55
+SENSOR_RWA_IDENTIFINDER::0x632	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	56;"	d	line:56
+TXBnCON	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	83;"	m	line:83	file:
+TXBnCON	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	122;"	m	line:122
+TXBn_list	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	85;"	v	line:85
+TX_B0::6	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	56;"	d	line:56
+TX_B1::7	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	57;"	d	line:57
+TX_B2::8	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	58;"	d	line:58
+UART1::1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	39;"	d	line:39
+UART1_BAUD_CONFIG::(BAUD_16_BIT_RATE&BAUD_AUTO_OF	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	32;"	d	line:32
+UART1_BAUD_RATE::9600	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	43;"	d	line:43
+UART1_CONFIG::USART_TX_INT_ON&USART_RX_INT_O	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	34;"	d	line:34
+UART1_INTERRUPT_RX::(UART1_CONFIG&0x40)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	38;"	d	line:38
+UART1_INTERRUPT_TX::(UART1_CONFIG&0x80)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	37;"	d	line:37
+UART2::2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	40;"	d	line:40
+UART2_BAUD_CONFIG::BAUD_16_BIT_RATE&BAUD_AUTO_OFF	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	33;"	d	line:33
+UART2_BAUD_RATE::9600	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	44;"	d	line:44
+UART2_CONFIG::USART_TX_INT_ON&USART_RX_INT_O	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	35;"	d	line:35
+UART2_INTERRUPT_RX::(UART2_CONFIG&0x40)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	40;"	d	line:40
+UART2_INTERRUPT_TX::(UART2_CONFIG&0x80)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	39;"	d	line:39
+UART_BUFFER_SIZE_RX::32	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	30;"	d	line:30
+UART_BUFFER_SIZE_TX::32	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	29;"	d	line:29
+UART_TO_CONVERTER::UART1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	42;"	d	line:42
+VEHICLE::0x500	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	36;"	d	line:36
+VERSION::"Version1.0"	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\version.h	31;"	d	line:31
+_CAN_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	23;"	d	line:23
+_CAN_INTERFACE_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	23;"	d	line:23
+_CAN_TO_RS232_CONVERTER	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	23;"	d	line:23
+_CBRN_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	24;"	d	line:24
+_GLOBAL_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\global.h	23;"	d	line:23
+_IO_CFG_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	23;"	d	line:23
+_MAIN_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\main.h	22;"	d	line:22
+_UART_INTERFACE_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	23;"	d	line:23
+brp	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	430;"	l	line:430
+buffer_index	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	673;"	l	line:673
+buffer_index	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	258;"	l	line:258
+buffer_rx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	44;"	m	line:44	struct:CAN_STATUS	file:
+buffer_rx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	128;"	m	line:128	struct:CAN_STATUS
+buffer_rx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	32;"	m	line:32	struct:uart_status	file:
+buffer_rx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	58;"	m	line:58	struct:uart_status
+buffer_rx_error	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	46;"	m	line:46	struct:CAN_STATUS	file:
+buffer_rx_error	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	130;"	m	line:130	struct:CAN_STATUS
+buffer_rx_error	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	34;"	m	line:34	struct:uart_status	file:
+buffer_rx_error	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	60;"	m	line:60	struct:uart_status
+buffer_rx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	43;"	m	line:43	struct:CAN_STATUS	file:
+buffer_rx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	127;"	m	line:127	struct:CAN_STATUS
+buffer_rx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	31;"	m	line:31	struct:uart_status	file:
+buffer_rx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	57;"	m	line:57	struct:uart_status
+buffer_rx_overflow	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	45;"	m	line:45	struct:CAN_STATUS	file:
+buffer_rx_overflow	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	129;"	m	line:129	struct:CAN_STATUS
+buffer_rx_overflow	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	33;"	m	line:33	struct:uart_status	file:
+buffer_rx_overflow	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	59;"	m	line:59	struct:uart_status
+buffer_tx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	42;"	m	line:42	struct:CAN_STATUS	file:
+buffer_tx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	126;"	m	line:126	struct:CAN_STATUS
+buffer_tx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	30;"	m	line:30	struct:uart_status	file:
+buffer_tx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	56;"	m	line:56	struct:uart_status
+buffer_tx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	41;"	m	line:41	struct:CAN_STATUS	file:
+buffer_tx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	125;"	m	line:125	struct:CAN_STATUS
+buffer_tx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	29;"	m	line:29	struct:uart_status	file:
+buffer_tx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	55;"	m	line:55	struct:uart_status
+button_sw2::PORTBbits.RB0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	70;"	d	line:70
+button_sw2_tris::TRISBbits.TRISB0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	69;"	d	line:69
+can_buffer_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	178;"	p	line:178	signature:(CAN_MESSAGE *data_read)
+can_buffer_rx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	57;"	v	line:57
+can_buffer_rx_data_cnt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	58;"	v	line:58
+can_buffer_rx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	175;"	p	line:175	signature:(void)
+can_buffer_rx_rd_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	60;"	v	line:60
+can_buffer_rx_wr_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	59;"	v	line:59
+can_buffer_send	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	256;"	f	line:256	signature:(void)
+can_buffer_send	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	169;"	p	line:169	signature:(void)
+can_buffer_tx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	52;"	v	line:52
+can_buffer_tx_data_cnt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	53;"	v	line:53
+can_buffer_tx_free	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	65;"	v	line:65
+can_buffer_tx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	208;"	f	line:208	signature:(CAN_MESSAGE *data_write)
+can_buffer_tx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	166;"	p	line:166	signature:(CAN_MESSAGE *data_write)
+can_buffer_tx_mask	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	64;"	v	line:64
+can_buffer_tx_rd_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	55;"	v	line:55
+can_buffer_tx_wr_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	54;"	v	line:54
+can_bus_disable_terminator::can_bus_res=0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	29;"	d	line:29
+can_bus_enable_terminator::can_bus_res=1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	28;"	d	line:28
+can_bus_res::PORTDbits.RD3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	54;"	d	line:54
+can_bus_res_tris::TRISDbits.TRISD3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	53;"	d	line:53
+can_bus_rx_tris::TRISBbits.TRISB3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	51;"	d	line:51
+can_bus_tx_tris::TRISBbits.TRISB2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	49;"	d	line:49
+can_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	172;"	p	line:172	signature:(void)
+can_init	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	89;"	f	line:89	signature:(unsigned char global_interrupt, unsigned char prog_interrupt, unsigned char prog_buffer_mode, unsigned char baud_rate)
+can_init	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	162;"	p	line:162	signature:(unsigned char global_interrupt, unsigned char prog_interrupt, unsigned char prog_buffer_mode, unsigned char baud_rate)
+can_init_auto_rtr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	529;"	f	line:529	signature:(unsigned char prog_buffer, unsigned char filter)
+can_init_baudrate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	426;"	f	line:426	signature:(unsigned char SJW, unsigned char PRSEG, unsigned char PS1, unsigned char PS2, unsigned int clock, unsigned char baud_rate)
+can_init_baudrate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	154;"	p	line:154	signature:(unsigned char SJW, unsigned char PRSEG, unsigned char PS1, unsigned char PS2, unsigned int clock, unsigned char baud_rate)
+can_init_baudrate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	199;"	p	line:199	signature:(unsigned char SJW, unsigned char PRSEG, unsigned char PS1, unsigned char PS2, unsigned int clock, unsigned char baud_rate)
+can_init_filter_buffer	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	231;"	f	line:231	signature:(unsigned char filter, unsigned char buffer)
+can_init_filter_buffer	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	147;"	p	line:147	signature:(unsigned char filter, unsigned char buffer)
+can_init_filter_buffer	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	191;"	p	line:191	signature:(unsigned char filter, unsigned char buffer)
+can_init_filter_enable	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	204;"	f	line:204	signature:(unsigned int filter)
+can_init_filter_enable	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	144;"	p	line:144	signature:(unsigned int filter)
+can_init_filter_enable	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	188;"	p	line:188	signature:(unsigned int filter)
+can_init_filter_id	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	389;"	f	line:389	signature:(unsigned char filter, unsigned long filter_id, unsigned char exiden)
+can_init_filter_id	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	151;"	p	line:151	signature:(unsigned char filter, unsigned long filter_id, unsigned char exiden)
+can_init_filter_id	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	195;"	p	line:195	signature:(unsigned char filter, unsigned long filter_id, unsigned char exiden)
+can_init_filter_mask	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	313;"	f	line:313	signature:(unsigned char filter, unsigned char mask)
+can_init_filter_mask	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	149;"	p	line:149	signature:(unsigned char filter, unsigned char mask)
+can_init_filter_mask	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	193;"	p	line:193	signature:(unsigned char filter, unsigned char mask)
+can_init_interrupt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	112;"	f	line:112	signature:(unsigned char config_interrupt, unsigned char config_prog_interrupt)
+can_init_interrupt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	133;"	p	line:133	signature:(unsigned char config_interrupt, unsigned char config_prog_interrupt)
+can_init_mask_id	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	168;"	f	line:168	signature:(unsigned char mask, unsigned long mask_id, unsigned char exiden)
+can_init_mask_id	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	140;"	p	line:140	signature:(unsigned char mask, unsigned long mask_id, unsigned char exiden)
+can_init_mask_id	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	184;"	p	line:184	signature:(unsigned char mask, unsigned long mask_id, unsigned char exiden)
+can_init_prog_buffer_mode	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	137;"	f	line:137	signature:(unsigned char prog_buffer_mode)
+can_init_prog_buffer_mode	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	137;"	p	line:137	signature:(unsigned char prog_buffer_mode)
+can_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	181;"	p	line:181	signature:(void)
+can_load_buffer	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	671;"	f	line:671	signature:(unsigned char buffer, CAN_MESSAGE *message)
+can_load_buffer	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	168;"	p	line:168	signature:(unsigned char buffer, CAN_MESSAGE *message)
+can_message	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	79;"	v	line:79
+can_mode_select	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	562;"	f	line:562	signature:(unsigned char mode)
+can_mode_select	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	160;"	p	line:160	signature:(unsigned char mode)
+can_op_select	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	586;"	f	line:586	signature:(unsigned char op)
+can_op_select	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	158;"	p	line:158	signature:(unsigned char op)
+can_pc_interface_state	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	101;"	v	line:101
+can_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	781;"	f	line:781	signature:(CAN_MESSAGE *can_message, unsigned char buffer_index)
+can_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	163;"	p	line:163	signature:(CAN_MESSAGE *can_message, unsigned char buffer_index)
+can_search_buffer_free	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	604;"	f	line:604	signature:(void)
+can_search_buffer_free	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	94;"	p	line:94	file:	signature:(void)
+can_search_buffer_loaded	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	634;"	f	line:634	signature:(void)
+can_search_buffer_loaded	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	171;"	p	line:171	signature:(void)
+can_status	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	50;"	v	line:50
+can_terminator::LATDbits.LATD3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	153;"	d	line:153
+can_terminator_tris::TRISDbits.TRISD3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	152;"	d	line:152
+can_write	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	756;"	f	line:756	signature:(unsigned char buffer)
+can_write	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	166;"	p	line:166	signature:(unsigned char buffer)
+canid_to_regs	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	850;"	f	line:850	signature:(unsigned char *buffer, unsigned long id, unsigned char exide)
+canid_to_regs	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	97;"	p	line:97	file:	signature:(unsigned char *buffer, unsigned long id, unsigned char exide)
+cbrn_get_can_index	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.c	42;"	f	line:42	signature:(void)
+cbrn_get_can_index	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	60;"	p	line:60	signature:(void)
+cbrn_get_can_info	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.c	101;"	f	line:101	signature:(unsigned char *device_name)
+cbrn_get_can_info	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.h	61;"	p	line:61	signature:(unsigned char *device_name)
+chTemp	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	460;"	l	line:460
+chTemp	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	522;"	l	line:522
+configuration_bit	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	747;"	l	line:747
+configuration_bit	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	789;"	l	line:789
+count	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	67;"	v	line:67
+data	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	47;"	m	line:47	struct:CAN_MESSAGE_STRUCT	file:
+data	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	100;"	m	line:100	struct:CAN_MESSAGE_STRUCT
+data	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	138;"	m	line:138	struct:CAN_MESSAGE_STRUCT
+data	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	112;"	v	line:112
+data_length	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	48;"	m	line:48	struct:CAN_MESSAGE_STRUCT	file:
+data_length	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	101;"	m	line:101	struct:CAN_MESSAGE_STRUCT
+data_length	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	139;"	m	line:139	struct:CAN_MESSAGE_STRUCT
+data_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	288;"	l	line:288
+device_name_rom	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.c	28;"	v	line:28
+device_type	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.c	104;"	l	line:104
+device_type	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\cbrn.c	45;"	l	line:45
+error_invalid_msg	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	53;"	m	line:53	struct:CAN_MESSAGE_STRUCT	file:
+error_invalid_msg	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	106;"	m	line:106	struct:CAN_MESSAGE_STRUCT
+error_invalid_msg	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	144;"	m	line:144	struct:CAN_MESSAGE_STRUCT
+error_overflow	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	52;"	m	line:52	struct:CAN_MESSAGE_STRUCT	file:
+error_overflow	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	105;"	m	line:105	struct:CAN_MESSAGE_STRUCT
+error_overflow	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	143;"	m	line:143	struct:CAN_MESSAGE_STRUCT
+exid_frame	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	55;"	m	line:55	struct:CAN_MESSAGE_STRUCT	file:
+exid_frame	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	108;"	m	line:108	struct:CAN_MESSAGE_STRUCT
+exid_frame	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	146;"	m	line:146	struct:CAN_MESSAGE_STRUCT
+filter_hit	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	50;"	m	line:50	struct:CAN_MESSAGE_STRUCT	file:
+filter_hit	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	103;"	m	line:103	struct:CAN_MESSAGE_STRUCT
+filter_hit	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	141;"	m	line:141	struct:CAN_MESSAGE_STRUCT
+freq_Hz	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	746;"	l	line:746
+freq_Hz	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	788;"	l	line:788
+high_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\interrupt\interrupt.h	30;"	p	line:30	signature:(void)
+i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\interrupt\interrupt.c	29;"	v	line:29
+i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	606;"	l	line:606
+i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	636;"	l	line:636
+i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	783;"	l	line:783
+i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	259;"	l	line:259
+i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	92;"	l	line:92
+i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	132;"	l	line:132
+i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	251;"	l	line:251
+i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	282;"	l	line:282
+id	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	46;"	m	line:46	struct:CAN_MESSAGE_STRUCT	file:
+id	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	99;"	m	line:99	struct:CAN_MESSAGE_STRUCT
+id	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	137;"	m	line:137	struct:CAN_MESSAGE_STRUCT
+id	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	114;"	v	line:114
+initialize_system	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\main.c	127;"	f	line:127	signature:(void)
+initialize_system	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\main.h	28;"	p	line:28	signature:(void)
+initialize_user	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	130;"	f	line:130	signature:(void)
+initialize_user	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	63;"	p	line:63	signature:(void)
+interrupt_at_high_vector	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\interrupt\interrupt.c	34;"	f	line:34	signature:(void)
+j	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	674;"	l	line:674
+led_st1::LATDbits.LATD0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	59;"	d	line:59
+led_st1_tris::TRISDbits.TRISD0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	58;"	d	line:58
+led_st2::LATDbits.LATD1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	62;"	d	line:62
+led_st2_tris::TRISDbits.TRISD1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	61;"	d	line:61
+led_st3::LATDbits.LATD2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	65;"	d	line:65
+led_st3_tris::TRISDbits.TRISD2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	64;"	d	line:64
+low_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\interrupt\interrupt.h	29;"	p	line:29	signature:(void)
+main	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\main.c	92;"	f	line:92	signature:(void)
+main	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\main.h	27;"	p	line:27	signature:(void)
+max3160_fast1::LATAbits.LATA1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	107;"	d	line:107
+max3160_fast1_tris::TRISAbits.TRISA1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	106;"	d	line:106
+max3160_fast2::LATBbits.LATB1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	119;"	d	line:119
+max3160_fast2_tris::TRISBbits.TRISB1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	118;"	d	line:118
+max3160_full1::LATAbits.LATA5	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	113;"	d	line:113
+max3160_full1_tris::TRISAbits.TRISA5	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	112;"	d	line:112
+max3160_full2::LATEbits.LATE2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	125;"	d	line:125
+max3160_full2_tris::TRISEbits.TRISE2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	124;"	d	line:124
+max3160_rs4851::LATAbits.LATA2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	110;"	d	line:110
+max3160_rs4851_tris::TRISAbits.TRISA2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	109;"	d	line:109
+max3160_rs4852::LATBbits.LATB4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	122;"	d	line:122
+max3160_rs4852_tris::TRISBbits.TRISB4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	121;"	d	line:121
+max3160_shdn1::LATAbits.LATA0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	104;"	d	line:104
+max3160_shdn1_tris::TRISAbits.TRISA0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	103;"	d	line:103
+max3160_shdn2::LATAbits.LATA0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	116;"	d	line:116
+max3160_shdn2_tris::TRISAbits.TRISA0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	115;"	d	line:115
+mcp2551_rs	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	150;"	d	line:150
+mcp2551_rs_tris	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	149;"	d	line:149
+newline	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	113;"	v	line:113
+number_of_tq	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	431;"	l	line:431
+old_op_mode	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	114;"	l	line:114
+old_op_mode	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	139;"	l	line:139
+old_op_mode	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	170;"	l	line:170
+old_op_mode	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	206;"	l	line:206
+old_op_mode	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	233;"	l	line:233
+old_op_mode	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	315;"	l	line:315
+old_op_mode	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	391;"	l	line:391
+old_op_mode	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	433;"	l	line:433
+process_internal_message	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	119;"	p	line:119	file:	signature:(unsigned char message)
+process_internal_message	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	518;"	f	line:518	signature:(unsigned char message)
+ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	675;"	l	line:675
+ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	784;"	l	line:784
+return_value	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	407;"	l	line:407
+rtr_frame	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.c	56;"	m	line:56	struct:CAN_MESSAGE_STRUCT	file:
+rtr_frame	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can.h	109;"	m	line:109	struct:CAN_MESSAGE_STRUCT
+rtr_frame	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.h	147;"	m	line:147	struct:CAN_MESSAGE_STRUCT
+send_message_can_to_uart	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	118;"	p	line:118	file:	signature:(void)
+send_message_can_to_uart	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	405;"	f	line:405	signature:(void)
+send_message_uart_to_can	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	117;"	p	line:117	file:	signature:(void)
+send_message_uart_to_can	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	286;"	f	line:286	signature:(void)
+switch_sw1::PORTCbits.RC0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	75;"	d	line:75
+switch_sw1_to_sw6::PORTC	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	92;"	d	line:92
+switch_sw1_tris::TRISCbits.TRISC0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	74;"	d	line:74
+switch_sw2::PORTCbits.RC1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	78;"	d	line:78
+switch_sw2_tris::TRISCbits.TRISC1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	77;"	d	line:77
+switch_sw3::PORTCbits.RC2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	81;"	d	line:81
+switch_sw3_tris::TRISCbits.TRISC2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	80;"	d	line:80
+switch_sw4::PORTCbits.RC3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	84;"	d	line:84
+switch_sw4_tris::TRISCbits.TRISC3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	83;"	d	line:83
+switch_sw5::PORTCbits.RC4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	87;"	d	line:87
+switch_sw5_tris::TRISCbits.TRISC4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	86;"	d	line:86
+switch_sw6::PORTCbits.RC5	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	90;"	d	line:90
+switch_sw6_tris::TRISCbits.TRISC5	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	89;"	d	line:89
+switch_sw7::PORTEbits.RE0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	95;"	d	line:95
+switch_sw7_to_sw8::PORTE	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	100;"	d	line:100
+switch_sw7_tris::TRISEbits.TRISE0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	94;"	d	line:94
+switch_sw8::PORTEbits.RE1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	98;"	d	line:98
+switch_sw8_tris::TRISEbits.TRISE1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	97;"	d	line:97
+temp	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	111;"	v	line:111
+txbnie_flag	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_interface.c	262;"	l	line:262
+uart1_buad_rate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	744;"	f	line:744	signature:(unsigned long baud_rate, unsigned char freq_MHz)
+uart1_buad_rate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	87;"	p	line:87	signature:(unsigned long baud_rate, unsigned char freq_MHz)
+uart1_buffer_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	584;"	f	line:584	signature:(unsigned char *data_read)
+uart1_buffer_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	75;"	p	line:75	signature:(unsigned char *)
+uart1_buffer_rx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	48;"	v	line:48
+uart1_buffer_rx_data_cnt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	49;"	v	line:49
+uart1_buffer_rx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	458;"	f	line:458	signature:(void)
+uart1_buffer_rx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	76;"	p	line:76	signature:(void)
+uart1_buffer_rx_rd_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	51;"	v	line:51
+uart1_buffer_rx_wr_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	50;"	v	line:50
+uart1_buffer_send	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	309;"	f	line:309	signature:(void)
+uart1_buffer_send	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	79;"	p	line:79	signature:(void)
+uart1_buffer_tx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	43;"	v	line:43
+uart1_buffer_tx_data_cnt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	44;"	v	line:44
+uart1_buffer_tx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	166;"	f	line:166	signature:(unsigned char data_write)
+uart1_buffer_tx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	80;"	p	line:80	signature:(unsigned char)
+uart1_buffer_tx_rd_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	46;"	v	line:46
+uart1_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	249;"	f	line:249	signature:(unsigned char *data_write, unsigned int length)
+uart1_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	82;"	p	line:82	signature:(unsigned char *data_write, unsigned int length)
+uart1_buffer_tx_wr_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	45;"	v	line:45
+uart1_close::Close1USART	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	49;"	d	line:49
+uart1_get_rx_data_size	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	671;"	f	line:671	signature:(void)
+uart1_get_rx_data_size	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	77;"	p	line:77	signature:(void)
+uart1_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	417;"	f	line:417	signature:(void)
+uart1_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	84;"	p	line:84	signature:(void)
+uart1_init	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	73;"	f	line:73	signature:(void)
+uart1_init	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	90;"	p	line:90	signature:(void)
+uart1_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	710;"	f	line:710	signature:(void)
+uart1_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	89;"	p	line:89	signature:(void)
+uart1_open::(baud_rate)Open1USART(UART1_CO	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	47;"	d	line:47
+uart1_rx_tris::TRISCbits.TRISC7	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	43;"	d	line:43
+uart1_status	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	40;"	v	line:40
+uart1_tx_tris::TRISCbits.TRISC6	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	42;"	d	line:42
+uart2_buad_rate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	786;"	f	line:786	signature:(unsigned long baud_rate, unsigned char freq_MHz)
+uart2_buad_rate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	105;"	p	line:105	signature:(unsigned long baud_rate, unsigned char freq_MHz)
+uart2_buffer_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	629;"	f	line:629	signature:(unsigned char *data_read)
+uart2_buffer_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	92;"	p	line:92	signature:(unsigned char *)
+uart2_buffer_rx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	58;"	v	line:58
+uart2_buffer_rx_data_cnt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	59;"	v	line:59
+uart2_buffer_rx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	520;"	f	line:520	signature:(void)
+uart2_buffer_rx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	93;"	p	line:93	signature:(void)
+uart2_buffer_rx_rd_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	61;"	v	line:61
+uart2_buffer_rx_wr_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	60;"	v	line:60
+uart2_buffer_send	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	362;"	f	line:362	signature:(void)
+uart2_buffer_send	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	96;"	p	line:96	signature:(void)
+uart2_buffer_tx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	53;"	v	line:53
+uart2_buffer_tx_data_cnt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	54;"	v	line:54
+uart2_buffer_tx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	207;"	f	line:207	signature:(unsigned char data_write)
+uart2_buffer_tx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	97;"	p	line:97	signature:(unsigned char data_write)
+uart2_buffer_tx_rd_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	56;"	v	line:56
+uart2_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	280;"	f	line:280	signature:(unsigned char *data_write, unsigned int length)
+uart2_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	99;"	p	line:99	signature:(unsigned char *data_write, unsigned int length)
+uart2_buffer_tx_wr_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	55;"	v	line:55
+uart2_close::Close2USART	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	50;"	d	line:50
+uart2_get_rx_data_size	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	686;"	f	line:686	signature:(void)
+uart2_get_rx_data_size	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	94;"	p	line:94	signature:(void)
+uart2_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	437;"	f	line:437	signature:(void)
+uart2_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	101;"	p	line:101	signature:(void)
+uart2_init	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	119;"	f	line:119	signature:(void)
+uart2_init	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	108;"	p	line:108	signature:(void)
+uart2_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	836;"	f	line:836	signature:(void)
+uart2_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	107;"	p	line:107	signature:(void)
+uart2_open::(baud_rate)Open2USART(UART2_CO	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	48;"	d	line:48
+uart2_rx_tris::TRISDbits.TRISD7	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	46;"	d	line:46
+uart2_status	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	41;"	v	line:41
+uart2_tx_tris::TRISDbits.TRISD6	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\system\io_cfg.h	45;"	d	line:45
+uart_baud_rate	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	108;"	v	line:108
+uart_buffer_read::(byte){if(uart_number==1)uart1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	57;"	d	line:57
+uart_buffer_rx_load::{if(uart_number==1)uart1_buffe	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	56;"	d	line:56
+uart_buffer_tx_load::(return_value,byte){if(uart_nu	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	53;"	d	line:53
+uart_buffer_tx_seq_load::(return_value,data_write,lengt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	54;"	d	line:54
+uart_close::{if(uart_number==1)uart1_close	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	52;"	d	line:52
+uart_data_count	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	102;"	v	line:102
+uart_enabled	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	86;"	v	line:86
+uart_get_tx_buffer_empty_space::(return_value){if(uart_number=	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	55;"	d	line:55
+uart_init::{if(uart_number==1)uart1_init;	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	50;"	d	line:50
+uart_interrupt_rx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	107;"	v	line:107
+uart_interrupt_tx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	106;"	v	line:106
+uart_isr::{if(uart_number==1)uart1_isr;e	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	58;"	d	line:58
+uart_message	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	80;"	v	line:80
+uart_message_queue	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	83;"	v	line:83
+uart_number	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	85;"	v	line:85
+uart_open::(baud_rate){if(uart_number==1)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	51;"	d	line:51
+uart_pc_interface_state	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	94;"	v	line:94
+uart_status	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c	27;"	s	line:27	file:
+uart_status	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\uart_interface.h	53;"	s	line:53
+uart_to_canbus_process	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	265;"	f	line:265	signature:(void)
+uart_to_canbus_process	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.h	64;"	p	line:64	signature:(void)
+uartx_status	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c	109;"	v	line:109

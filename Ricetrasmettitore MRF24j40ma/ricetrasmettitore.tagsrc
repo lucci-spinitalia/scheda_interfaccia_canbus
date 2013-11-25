@@ -1,0 +1,15 @@
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\main.c
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\system\interrupt\interrupt.c
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can.c
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.c
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\ricetrasmettitore.c
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\spi_interface.c
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\main.h
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\system\interrupt\interrupt.h
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\system\io_cfg.h
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\system\version.h
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can.h
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\can_interface.h
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\ricetrasmettitore.h
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\spi_interface.h
+C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Ricetrasmettitore MRF24j40ma\user\mrf24j40.h

@@ -1,0 +1,16 @@
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 692 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 692 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 693 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 693 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 702 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 702 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 703 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 703 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 711 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 711 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 712 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 712 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 720 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 720 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 721 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_to_rs232_converter.c 721 : suspicious pointer conversion
