@@ -1,0 +1,16 @@
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 704 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 704 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 705 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 705 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 714 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 714 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 715 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 715 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 723 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 723 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 724 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 724 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 732 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 732 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 733 : suspicious pointer conversion
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS_v3\FW\user\can_to_rs232_converter.c 733 : suspicious pointer conversion

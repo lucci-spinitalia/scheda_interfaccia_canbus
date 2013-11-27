@@ -45,56 +45,58 @@ extern struct uart_status * uartx_status;	// pointer to the uart_status structur
 //
 // Warning: if someone add or remove a table index, the function 
 // cbrn_get_can_address must be changed too
-#define PC_INTERFACE_ADDR					0x000
+#define PC_INTERFACE_ADDR       0x000
 
-#define ROBOTIC_ARM_ALL_ADDR		0x3d0  // Broadcast for robotic arm
-#define ROBOTIC_ARM_ADDR            0x3d2
-#define ROBOTIC_ARM_G1_ADRR			0x3d4
-#define ROBOTIC_ARM_G2_ADRR			0x3d6
-#define ROBOTIC_ARM_G3_ADRR			0x3d8
-#define ROBOTIC_ARM_G4_ADRR			0x3da
-#define ROBOTIC_ARM_G5_ADRR			0x3dc
-#define ROBOTIC_ARM_G6_ADRR			0x3de
+#define ROBOTIC_ARM_ALL_ADDR	0x3d0  // Broadcast for robotic arm
+#define ROBOTIC_ARM_ADDR        0x3d2
+#define ROBOTIC_ARM_G1_ADRR	0x3d4
+#define ROBOTIC_ARM_G2_ADRR	0x3d6
+#define ROBOTIC_ARM_G3_ADRR	0x3d8
+#define ROBOTIC_ARM_G4_ADRR	0x3da
+#define ROBOTIC_ARM_G5_ADRR	0x3dc
+#define ROBOTIC_ARM_G6_ADRR	0x3de
 
-#define TOOL_ALL_ADDR               0x3e0
-#define TOOL_GRIPPER_ADRR	        0x3e2
+#define TOOL_ALL_ADDR           0x3e0
+#define TOOL_GRIPPER_ADRR	0x3e2
 
 #define SENSOR_ON_BOARD_LASER_RANGE_FINDER_ADDR	0x3fe
 
 // This index is based on Segway RMP. Indexes from 0x500 throught 0x560 should 
 // be keep free.
-#define VEHICLE_ADDR				0x500  // This is based on segway address	
+#define VEHICLE_ADDR		        0x500  // This is based on segway address
 
-#define SENSOR_ALL_ADDR						0x600  //Broadcast for all sensors
-#define SENSOR_BWA_ADDR						0x610  //Broadcast for group
-#define SENSOR_BWA_SASS2300_ADDR			0x612
-#define SENSOR_CWA_TIC_ADDR					0x620  //Broadcast for group
-#define SENSOR_CWA_TIC_CAM_ADDR				0x622
-#define SENSOR_CWA_TIC_CHEMPRO100_ADDR		0x624
-#define SENSOR_CWA_TIC_MULTIRAEPLUS_ADDR	0x626
-#define SENSOR_RWA_ADDR						0x630  //Broadcast for group
-#define SENSOR_RWA_ANPDR77_ADDR				0x632
-#define SENSOR_RWA_IDENTIFINDER_ADDR		0x634
-#define SENSOR_EXP_ADDR						0x640  //Broadcast for group
-#define SENSOR_EXP_SE138K_ADDR				0x642
-#define UNKNOWN_DEVICE_ADDR					0x6FF
+#define SENSOR_ALL_ADDR		          0x600  //Broadcast for all sensors
+#define SENSOR_BWA_ADDR		          0x610  //Broadcast for group
+#define SENSOR_BWA_SASS2300_ADDR          0x612
+#define SENSOR_BWA_SASS3100_ADDR          0x613
+#define SENSOR_CWA_TIC_ADDR		  0x620  //Broadcast for group
+#define SENSOR_CWA_TIC_CAM_ADDR		  0x622
+#define SENSOR_CWA_TIC_CHEMPRO100_ADDR	  0x624
+#define SENSOR_CWA_TIC_MULTIRAEPLUS_ADDR  0x626
+#define SENSOR_RWA_ADDR			  0x630  //Broadcast for group
+#define SENSOR_RWA_ANPDR77_ADDR		  0x632
+#define SENSOR_RWA_IDENTIFINDER_ADDR	  0x634
+#define SENSOR_EXP_ADDR			  0x640  //Broadcast for group
+#define SENSOR_EXP_SE138K_ADDR		  0x642
+#define UNKNOWN_DEVICE_ADDR		  0x6FF
 
 // Device address offset from ccu can address
-#define CAN_ADDRESS_OFFSET                  0x100
+#define CAN_ADDRESS_OFFSET                0x100
 
 // Device's define
 #define SENSOR_ON_BOARD_LASER_RANGE_FINDER	0x00
-#define VEHICLE								0x04	
-#define ROBOTIC_ARM							0x05
-#define SENSOR_BWA_SASS2300					0x08
-#define SENSOR_CWA_TIC_CAM					0x09
-#define SENSOR_CWA_TIC_CHEMPRO100			0x0A
-#define SENSOR_CWA_TIC_MULTIRAEPLUS			0x0B
-#define SENSOR_RWA_ANPDR77					0x0C
-#define SENSOR_RWA_IDENTIFINDER			    0x0D
-#define SENSOR_EXP_SE138K					0x0E
-#define PC_INTERFACE						0x10
-#define CUSTOM_DEVICE						0x11
+#define VEHICLE					0x04	
+#define ROBOTIC_ARM				0x05
+#define SENSOR_BWA_SASS2300                     0x08
+#define SENSOR_BWA_SASS3100			0x11
+#define SENSOR_CWA_TIC_CAM			0x09
+#define SENSOR_CWA_TIC_CHEMPRO100		0x0A
+#define SENSOR_CWA_TIC_MULTIRAEPLUS		0x0B
+#define SENSOR_RWA_ANPDR77			0x0C
+#define SENSOR_RWA_IDENTIFINDER			0x0D
+#define SENSOR_EXP_SE138K			0x0E
+#define PC_INTERFACE				0x10
+#define CUSTOM_DEVICE				0x12
 
 #define SENSOR_EXP_CODE				0xFF
 #define SENSOR_EXP_WARNING			0x00
@@ -162,6 +164,8 @@ void can_uart_initialize(void);		// user's application initializations
 void can_uart_loop(void);	// process uart and canbus  message
 extern unsigned char can_buffer_rx_load(void);
 extern unsigned char can_error_handle(void);
-extern unsigned char uart1_error_handle(void);extern unsigned char uart2_error_handle(void);
+extern unsigned char uart1_error_handle(void);
+extern unsigned char uart2_error_handle(void);
+
 #endif
 

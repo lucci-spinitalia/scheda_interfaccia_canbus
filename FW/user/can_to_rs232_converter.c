@@ -79,6 +79,7 @@
 
 /** I N C L U D E S ********************************/
 #include "can_to_rs232_converter.h"
+#include "version.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -167,12 +168,12 @@ void can_uart_initialize(void)
   // Select uart structure
   if(uart_number ==1)
   {
-	uartx_status = &uart1_status;
+    uartx_status = &uart1_status;
     uart_baud_rate = UART1_BAUD_RATE;
     uart_interrupt_tx = UART1_INTERRUPT_TX;
     uart_interrupt_rx = UART1_INTERRUPT_RX;
 
-	debug_interrupt_tx = UART2_INTERRUPT_TX;
+    debug_interrupt_tx = UART2_INTERRUPT_TX;
   }
   else
   {
@@ -181,7 +182,7 @@ void can_uart_initialize(void)
     uart_interrupt_tx = UART2_INTERRUPT_TX;
     uart_interrupt_rx = UART2_INTERRUPT_RX;
 
-	debug_interrupt_tx = UART1_INTERRUPT_TX;
+    debug_interrupt_tx = UART1_INTERRUPT_TX;
   }
 
   uart1_tx_tris = OUTPUT_PIN;
@@ -193,8 +194,7 @@ void can_uart_initialize(void)
   switch(device_type)
   {
     case ROBOTIC_ARM:
-
-	  MAX3160_ENABLE();
+      MAX3160_ENABLE();
       MAX3160_ENABLE_RS485();
       uart_init(RS485);
       uart_open(115200);
@@ -204,47 +204,45 @@ void can_uart_initialize(void)
 
     case VEHICLE:
     case SENSOR_BWA_SASS2300:
-	case SENSOR_CWA_TIC_CAM:
-	case SENSOR_CWA_TIC_CHEMPRO100:
-	case SENSOR_CWA_TIC_MULTIRAEPLUS:
+    case SENSOR_BWA_SASS3100:
+    case SENSOR_CWA_TIC_CAM:
+    case SENSOR_CWA_TIC_CHEMPRO100:
+    case SENSOR_CWA_TIC_MULTIRAEPLUS:
     case SENSOR_RWA_ANPDR77:
-	case SENSOR_EXP_SE138K:
-
-	  MAX3160_ENABLE();
+    case SENSOR_EXP_SE138K:
+      MAX3160_ENABLE();
       MAX3160_ENABLE_RS232();
       uart_init(RS232);
       uart_open(9600);
 
-	  //I would remember which uart I have choosen
-	  uart_type = 1;
-	  break;
+      //I would remember which uart I have choosen
+      uart_type = 1;
+      break;
 
-	case SENSOR_RWA_IDENTIFINDER:
-
-	  MAX3160_ENABLE();
+    case SENSOR_RWA_IDENTIFINDER:
+      MAX3160_ENABLE();
       MAX3160_ENABLE_RS232();
       uart_init(RS232);
-	  uart_open(38400);
+      uart_open(38400);
 
       //I would remember which uart I have choosen
-	  uart_type = 1;
-	  break;
+      uart_type = 1;
+      break;
 
     case SENSOR_ON_BOARD_LASER_RANGE_FINDER:
-
-	  MAX3160_ENABLE();
+      MAX3160_ENABLE();
       MAX3160_ENABLE_RS232();
       uart_init(RS232);
-	  uart_open(57600);
+      uart_open(57600);
 
       //I would remember which uart I have choosen
-	  uart_type = 1;
-	  break;
+      uart_type = 1;
+      break;
 
-	case PC_INTERFACE:
+    case PC_INTERFACE:
     case CUSTOM_DEVICE:
     default:
- 	  // Only custom device and pc interface can choose the uart type
+      // Only custom device and pc interface can choose the uart type
 
       uart_type = (switch_sw7 << 1) + switch_sw8;
       switch(uart_type)
@@ -254,27 +252,27 @@ void can_uart_initialize(void)
           break;
 
         case 1: //RS232
-	      MAX3160_ENABLE();
+          MAX3160_ENABLE();
           MAX3160_ENABLE_RS232();
           uart_init(RS232);
           uart_open(uart_baud_rate);
           break;
 
         case 2: //RS485
-	      MAX3160_ENABLE();
+          MAX3160_ENABLE();
           MAX3160_ENABLE_RS485();
           uart_init(RS485);
           uart_open(uart_baud_rate);
           break;
 
-	    case 3: //RS422
-	      MAX3160_ENABLE();
+        case 3: //RS422
+          MAX3160_ENABLE();
           MAX3160_ENABLE_RS422();
           uart_init(RS232);
           uart_open(uart_baud_rate);
-	      break;
+          break;
       }
-	  break;
+      break;
   }
 	  
   //init debug interface
@@ -424,8 +422,6 @@ void can_uart_message_read_from_uart(void)
 {
   static unsigned char uart_message_read_state = 0;
 
-  unsigned char result;	//result from macro
-
   // I have to poll uart's TSR register to manage rs485 control pin, when 
   // enabled.
   if(uart_type == 2)
@@ -437,38 +433,38 @@ void can_uart_message_read_from_uart(void)
   switch(uart_message_read_state)
   {
     case 0:  //common task
-	  uart_message_read_state++;
-	  // if there's an action here, uncomment break
+      uart_message_read_state++;
+      // if there's an action here, uncomment break
       //break;
 
-	default:  //manage device
-	  switch(device_type)
+    default:  //manage device
+      switch(device_type)
       {
-		case SENSOR_EXP_SE138K:
-		  uart_message_read_state = sens_exp_uart_state_machine(uart_message_read_state);
-		  break;
+	case SENSOR_EXP_SE138K:
+	  uart_message_read_state = sens_exp_uart_state_machine(uart_message_read_state);
+	  break;
 
-	    case PC_INTERFACE:
-		  uart_message_read_state = pc_interface_uart_state_machine(uart_message_read_state);
-		  break;
+        case PC_INTERFACE:
+	  uart_message_read_state = pc_interface_uart_state_machine(uart_message_read_state);
+	  break;
 
         case VEHICLE:
         case ROBOTIC_ARM:
-		case SENSOR_ON_BOARD_LASER_RANGE_FINDER:
-	    case SENSOR_RWA_IDENTIFINDER:
-	    case SENSOR_BWA_SASS2300:
-	    case SENSOR_CWA_TIC_CAM:
-	    case SENSOR_CWA_TIC_CHEMPRO100:
-	    case SENSOR_CWA_TIC_MULTIRAEPLUS:
+	case SENSOR_ON_BOARD_LASER_RANGE_FINDER:
+        case SENSOR_RWA_IDENTIFINDER:
+        case SENSOR_BWA_SASS2300:
+        case SENSOR_BWA_SASS3100:
+	case SENSOR_CWA_TIC_CAM:
+	case SENSOR_CWA_TIC_CHEMPRO100:
+        case SENSOR_CWA_TIC_MULTIRAEPLUS:
         case SENSOR_RWA_ANPDR77:
         case CUSTOM_DEVICE:
         default:
           uart_message_read_state = trasparent_uart_state_machine(uart_message_read_state);
           break;
       }
-	  break;
+      break;
   }
-
 }
 
 /**************************************************
@@ -488,7 +484,7 @@ void can_uart_message_read_from_can(void)
 
   switch(can_message_read_state)
   {
-	case 0:  //read message and process internal message
+    case 0:  //read message and process internal message
       //**************************************************
       // check can message received
       //**************************************************
@@ -513,35 +509,36 @@ void can_uart_message_read_from_can(void)
         break;
       }
 
-	  can_message_read_state++;
-	  break;
+      can_message_read_state++;
+      break;
 
     default:  //manage device
-	  switch(device_type)
+      switch(device_type)
       {		
         case PC_INTERFACE:
-		  can_message_read_state = pc_interface_can_state_machine(can_message_read_state);
-		  break;
+	  can_message_read_state = pc_interface_can_state_machine(can_message_read_state);
+	  break;
 
-	    case SENSOR_EXP_SE138K:
-		  can_message_read_state = 0;
-		  break;
+        case SENSOR_EXP_SE138K:
+	  can_message_read_state = 0;
+	  break;
 
         case VEHICLE:
         case ROBOTIC_ARM:
-		case SENSOR_ON_BOARD_LASER_RANGE_FINDER:
-	    case SENSOR_RWA_IDENTIFINDER:
-	    case SENSOR_BWA_SASS2300:
-	    case SENSOR_CWA_TIC_CAM:
-	    case SENSOR_CWA_TIC_CHEMPRO100:
-	    case SENSOR_CWA_TIC_MULTIRAEPLUS:
+	case SENSOR_ON_BOARD_LASER_RANGE_FINDER:
+        case SENSOR_RWA_IDENTIFINDER:
+        case SENSOR_BWA_SASS2300:
+        case SENSOR_BWA_SASS3100:
+        case SENSOR_CWA_TIC_CAM:
+        case SENSOR_CWA_TIC_CHEMPRO100:
+        case SENSOR_CWA_TIC_MULTIRAEPLUS:
         case SENSOR_RWA_ANPDR77:
         case CUSTOM_DEVICE:
         default:
-		  can_message_read_state = trasparent_can_state_machine(can_message_read_state);
-		  break;
-	  }
+	  can_message_read_state = trasparent_can_state_machine(can_message_read_state);
 	  break;
+      }
+      break;
   }  
 }
 
@@ -649,32 +646,46 @@ void can_uart_proc_int_message(unsigned char cmd)
 
       switch(device_type)
       {
-		case SENSOR_BWA_SASS2300:
-          uart_message.data_length = 5;
+        case SENSOR_BWA_SASS2300:
+          uart_message.data_length = 6;
           uart_message.data[0] = 0x10 | cmd; //command recevied
-          uart_message.data[1] = START_SENSOR;
-          uart_message.data[2] = STOP_SENSOR;
-          uart_message.data[3] = START_ACQUISITION;
-          uart_message.data[4] = STOP_ACQUISITION;
+          uart_message.data[1] = VERSION;
+          uart_message.data[2] = START_SENSOR;
+          uart_message.data[3] = STOP_SENSOR;
+          uart_message.data[4] = START_ACQUISITION;
+          uart_message.data[5] = STOP_ACQUISITION;
 
           //if(!can_buffer_tx_load(&uart_message))
           //  led_st3 = 1;
           can_buffer_tx_load(&uart_message);
-		  break;
+	  break;
+
+        case SENSOR_BWA_SASS3100:
+          uart_message.data_length = 4;
+          uart_message.data[0] = 0x10 | cmd; //command recevied
+          uart_message.data[1] = VERSION;
+          uart_message.data[2] = START_SENSOR;
+          uart_message.data[3] = STOP_SENSOR;
+
+          //if(!can_buffer_tx_load(&uart_message))
+          //  led_st3 = 1;
+          can_buffer_tx_load(&uart_message);
+	  break;
 
         case VEHICLE:
         case ROBOTIC_ARM:
-		case SENSOR_ON_BOARD_LASER_RANGE_FINDER:
-	    case SENSOR_RWA_IDENTIFINDER:
-	    case SENSOR_CWA_TIC_CAM:
-	    case SENSOR_CWA_TIC_CHEMPRO100:
-	    case SENSOR_CWA_TIC_MULTIRAEPLUS:
+	case SENSOR_ON_BOARD_LASER_RANGE_FINDER:
+        case SENSOR_RWA_IDENTIFINDER:
+        case SENSOR_CWA_TIC_CAM:
+        case SENSOR_CWA_TIC_CHEMPRO100:
+        case SENSOR_CWA_TIC_MULTIRAEPLUS:
         case SENSOR_RWA_ANPDR77:
-		case SENSOR_EXP_SE138K:
+        case SENSOR_EXP_SE138K:
         case CUSTOM_DEVICE:
         default:
-          uart_message.data_length = 1;
+          uart_message.data_length = 2;
           uart_message.data[0] = 0x10 | cmd; //command recevied
+          uart_message.data[1] = VERSION;
 
           //if(!can_buffer_tx_load(&uart_message))
           //  led_st3 = 1;
@@ -688,44 +699,45 @@ void can_uart_proc_int_message(unsigned char cmd)
     case START_SENSOR:
       switch(device_type)
       {
-		case SENSOR_BWA_SASS2300:
+        case SENSOR_BWA_SASS2300:
+        case SENSOR_BWA_SASS3100:
           sprintf(buffer, "#F1\r");
-		  uart_buffer_tx_seq_load(result, buffer, strlen(buffer));
-		  break;
-	  }
+	  uart_buffer_tx_seq_load(result, buffer, strlen(buffer));
 	  break;
+      }
       break;
     case STOP_SENSOR:
       switch(device_type)
       {
-		case SENSOR_BWA_SASS2300:
+	case SENSOR_BWA_SASS2300:
+        case SENSOR_BWA_SASS3100:
           sprintf(buffer, "#F0\r");
-		  uart_buffer_tx_seq_load(result, buffer, strlen(buffer));
-		  break;
-	  }
+	  uart_buffer_tx_seq_load(result, buffer, strlen(buffer));
+	  break;
+      }
       break;
     case START_ACQUISITION:
       switch(device_type)
       {
-		case SENSOR_BWA_SASS2300:
+	case SENSOR_BWA_SASS2300:
           sprintf(buffer, "#G1\r");
-		  uart_buffer_tx_seq_load(result, buffer, strlen(buffer));
-		  break;
-	  }
+	  uart_buffer_tx_seq_load(result, buffer, strlen(buffer));
+	  break;
+      }
       break;
     case STOP_ACQUISITION:
       switch(device_type)
       {
-		case SENSOR_BWA_SASS2300:
+ 	case SENSOR_BWA_SASS2300:
           sprintf(buffer, "#G0\r");
-		  uart_buffer_tx_seq_load(result, buffer, strlen(buffer));
-		  break;
-	  }
+	  uart_buffer_tx_seq_load(result, buffer, strlen(buffer));
+	  break;
+      }
       break;
 
-	default:
-	  //*desc_length = sprintf(description, "Command Unknown");
-	  break;
+    default:
+      //*desc_length = sprintf(description, "Command Unknown");
+      break;
   }
 }
 
@@ -747,50 +759,52 @@ unsigned int cbrn_get_can_address(unsigned char device_type)
 {
   switch(device_type)
   {
-	case SENSOR_ON_BOARD_LASER_RANGE_FINDER:	//laser range finder
-	  return SENSOR_ON_BOARD_LASER_RANGE_FINDER_ADDR;
-	  break;
+    case SENSOR_ON_BOARD_LASER_RANGE_FINDER:	//laser range finder
+      return SENSOR_ON_BOARD_LASER_RANGE_FINDER_ADDR;
+      break;
     case VEHICLE:	//vehicle
-	  return VEHICLE_ADDR;
-	  break;
-	case ROBOTIC_ARM:	//robotic arm
-	  return ROBOTIC_ARM_ADDR;
-	  break;
-	case SENSOR_BWA_SASS2300:	//sass 2300
-	  return SENSOR_BWA_SASS2300_ADDR;
-	  break;
-	case SENSOR_CWA_TIC_CAM:	// CAM
-	  return SENSOR_CWA_TIC_CAM_ADDR;
-  	  break;
-	case SENSOR_CWA_TIC_CHEMPRO100:	//CHEMPRO100
-	  return SENSOR_CWA_TIC_CHEMPRO100_ADDR;
-	  break;
-	case SENSOR_CWA_TIC_MULTIRAEPLUS:	// MULTIRAE PLUS
-	  return SENSOR_CWA_TIC_MULTIRAEPLUS_ADDR;
-	  break;
-	case SENSOR_RWA_ANPDR77:	// ANPDR-77
-	  return SENSOR_RWA_ANPDR77_ADDR;
-	  break;
-	case SENSOR_RWA_IDENTIFINDER:	//IdentiFINDER
-	  return SENSOR_RWA_IDENTIFINDER_ADDR;
-	  break;
-	case SENSOR_EXP_SE138K:	// exp sensor
-	  return SENSOR_EXP_SE138K_ADDR;
-	  break;
+      return VEHICLE_ADDR;
+      break;
+    case ROBOTIC_ARM:	//robotic arm
+      return ROBOTIC_ARM_ADDR;
+      break;
+    case SENSOR_BWA_SASS2300:	//sass 2300
+      return SENSOR_BWA_SASS2300_ADDR;
+      break;
+    case SENSOR_BWA_SASS3100:	//sass 3100
+      return SENSOR_BWA_SASS3100_ADDR;
+      break;
+    case SENSOR_CWA_TIC_CAM:	// CAM
+      return SENSOR_CWA_TIC_CAM_ADDR;
+      break;
+    case SENSOR_CWA_TIC_CHEMPRO100:	//CHEMPRO100
+      return SENSOR_CWA_TIC_CHEMPRO100_ADDR;
+      break;
+    case SENSOR_CWA_TIC_MULTIRAEPLUS:	// MULTIRAE PLUS
+      return SENSOR_CWA_TIC_MULTIRAEPLUS_ADDR;
+      break;
+    case SENSOR_RWA_ANPDR77:	// ANPDR-77
+      return SENSOR_RWA_ANPDR77_ADDR;
+      break;
+    case SENSOR_RWA_IDENTIFINDER:	//IdentiFINDER
+      return SENSOR_RWA_IDENTIFINDER_ADDR;
+      break;
+    case SENSOR_EXP_SE138K:	// exp sensor
+      return SENSOR_EXP_SE138K_ADDR;
+      break;
     case PC_INTERFACE:
-	  return PC_INTERFACE_ADDR;
-	  break;
-	default:	// CUSTOM OR UNKNOWN DEVICE
- 	  if(device_type >= CUSTOM_DEVICE)
+      return PC_INTERFACE_ADDR;
+      break;
+    default:	// CUSTOM OR UNKNOWN DEVICE
+      if(device_type >= CUSTOM_DEVICE)
       {
-		//return a progressive number starting on CUSTOM_DEVICE. Remember that
+	//return a progressive number starting on CUSTOM_DEVICE. Remember that
         //for each device there's an address for the one and the address for 
-	    return (UNKNOWN_DEVICE_ADDR - (((device_type & 0x0F) * 2) - 2));
+	return (UNKNOWN_DEVICE_ADDR - (((device_type & 0x0F) * 2) - 2));
       }
-	  else
+      else
         return UNKNOWN_DEVICE_ADDR;
- 
-	  break;
+      break;
   }
 }
 

@@ -12,6 +12,10 @@
 * disclosure of such information is prohibited except
 * by express written agreement with Company.
 *
+* 27/11/13 - Version 3.1
+*       * Add sass3100 device
+*       * Add version info to aswer to info request
+*
 * 09/07/13 - Version 3.0
 *       * Changed addresses. Now the sending address and receive address differ
 *         by 0x100
@@ -63,5 +67,5 @@
 */
 
 #ifndef VERSION
-#define VERSION "Version 3.0"
+#define VERSION 31 //"Version 3.1"
 #endif //VERSION
