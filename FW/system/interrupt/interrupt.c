@@ -24,6 +24,7 @@
 #include "interrupt.h"
 #include "..\io_cfg.h"
 #include "..\..\user\can_to_rs232_converter.h"
+#include <timers.h>
 
 /** V A R I A B L E S ********************************************************/
 unsigned char i;					 // created for test purpouse only. remove it
@@ -61,6 +62,18 @@ void interrupt_at_low_vector(void)
 **************************************************/
 void high_isr(void)
 {
+
+  if(INTCONbits.TMR0IF)
+  {
+    INTCONbits.TMR0IE = 0;	//clear int flag
+    INTCONbits.TMR0IF = 0;	//clear int flag
+
+    led_st1 = ~led_st1;
+
+    WriteTimer0(0xbdc);
+
+    INTCONbits.TMR0IE = 1;	//clear int flag
+  }
 
   if( INTCONbits.INT0IF )
   {	

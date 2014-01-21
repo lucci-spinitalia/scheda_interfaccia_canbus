@@ -1,8 +1,0 @@
-Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Emulatore IDENTIFINDER\user\uart_interface.c 961 : suspicious pointer conversion
-Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Emulatore IDENTIFINDER\user\uart_interface.c 961 : type qualifier mismatch in assignment
-Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Emulatore IDENTIFINDER\user\uart_interface.c 966 : suspicious pointer conversion
-Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Emulatore IDENTIFINDER\user\uart_interface.c 966 : type qualifier mismatch in assignment
-Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Emulatore IDENTIFINDER\user\uart_interface.c 996 : suspicious pointer conversion
-Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Emulatore IDENTIFINDER\user\uart_interface.c 996 : type qualifier mismatch in assignment
-Warning[2054] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Emulatore IDENTIFINDER\user\uart_interface.c 1001 : suspicious pointer conversion
-Warning[2066] C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\Emulatore IDENTIFINDER\user\uart_interface.c 1001 : type qualifier mismatch in assignment

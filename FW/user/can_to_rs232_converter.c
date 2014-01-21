@@ -115,7 +115,7 @@ unsigned char error_message_length;
   const unsigned char CAN_250kbps[] = {4, 7, 4, 4, 1};
   const unsigned char CAN_125kbps[] = {4, 7, 4, 4, 3};
 #elif (FOSC_MHZ == 64)
-  const unsigned char CAN_1000kbps[] = {1, 4, 1, 2, 3};
+  const unsigned char CAN_1000kbps[] = {1, 4, 1, 2, 3}; //{4, 7, 4, 4, 2}
   const unsigned char CAN_500kbps[] = {2, 3, 2, 2, 7};
   const unsigned char CAN_250kbps[] = {4, 3, 6, 6, 4};
   const unsigned char CAN_125kbps[] = {4, 1, 7, 7, 15};
@@ -206,7 +206,6 @@ void can_uart_initialize(void)
     case SENSOR_BWA_SASS2300:
     case SENSOR_BWA_SASS3100:
     case SENSOR_CWA_TIC_CAM:
-    case SENSOR_CWA_TIC_CHEMPRO100:
     case SENSOR_CWA_TIC_MULTIRAEPLUS:
     case SENSOR_RWA_ANPDR77:
     case SENSOR_EXP_SE138K:
@@ -219,6 +218,7 @@ void can_uart_initialize(void)
       uart_type = 1;
       break;
 
+    case SENSOR_CWA_TIC_CHEMPRO100:
     case SENSOR_RWA_IDENTIFINDER:
       MAX3160_ENABLE();
       MAX3160_ENABLE_RS232();
@@ -383,7 +383,7 @@ void can_uart_loop(void)
   can_error = can_error_handle();
   if(can_error)
   {
-     led_st3 = 1;
+    led_st3 = 1;
     //uart1_buffer_tx_load(can_error);
 //    debug_buffer_tx_load(return_value, can_error);
 //    debug_buffer_tx_load(return_value, 0x0D);
@@ -649,7 +649,7 @@ void can_uart_proc_int_message(unsigned char cmd)
         case SENSOR_BWA_SASS2300:
           uart_message.data_length = 6;
           uart_message.data[0] = 0x10 | cmd; //command recevied
-          uart_message.data[1] = VERSION;
+          uart_message.data[1] = (unsigned char)VERSION;
           uart_message.data[2] = START_SENSOR;
           uart_message.data[3] = STOP_SENSOR;
           uart_message.data[4] = START_ACQUISITION;
@@ -663,7 +663,7 @@ void can_uart_proc_int_message(unsigned char cmd)
         case SENSOR_BWA_SASS3100:
           uart_message.data_length = 4;
           uart_message.data[0] = 0x10 | cmd; //command recevied
-          uart_message.data[1] = VERSION;
+          uart_message.data[1] = (unsigned char)VERSION;
           uart_message.data[2] = START_SENSOR;
           uart_message.data[3] = STOP_SENSOR;
 
@@ -685,7 +685,7 @@ void can_uart_proc_int_message(unsigned char cmd)
         default:
           uart_message.data_length = 2;
           uart_message.data[0] = 0x10 | cmd; //command recevied
-          uart_message.data[1] = VERSION;
+          uart_message.data[1] = (unsigned char)VERSION;
 
           //if(!can_buffer_tx_load(&uart_message))
           //  led_st3 = 1;
@@ -988,7 +988,7 @@ unsigned char pc_interface_uart_state_machine(unsigned char current_state)
 	    current_state = 4;
 
       // change led status when data has been received from device
-      led_st1 = ~led_st1;
+      //led_st1 = ~led_st1;
 
       break;
 
@@ -1051,7 +1051,6 @@ unsigned char trasparent_can_state_machine(unsigned char current_state)
   }
 
   return current_state;
-
 }
 
 
@@ -1113,7 +1112,7 @@ unsigned char trasparent_uart_state_machine(unsigned char current_state)
       if(!can_buffer_tx_load(&message_from_uart))
         break;
 
-      led_st1 = ~led_st1;
+      //led_st1 = ~led_st1;
       current_state = 0;
 	  break;
 
@@ -1152,8 +1151,8 @@ unsigned char sens_exp_uart_state_machine(unsigned char current_state)
 	
 	  if(result)
 	    current_state++;
-	  else
-        led_st1 = 1;
+	  /*else
+        led_st1 = 1;*/
 
 	  break;
 
@@ -1195,7 +1194,7 @@ unsigned char sens_exp_uart_state_machine(unsigned char current_state)
       cbrn_sens_exp_failure = 0;
 
       // change led status when data has been received from device
-      led_st1 = ~led_st1;
+      //led_st1 = ~led_st1;
 
       // load can tx buffer
       if(!can_buffer_tx_load(&uart_message))

@@ -2,7 +2,3 @@
   dati. 
 
 - Risolvere il problema della comunicazione tramite interrupt
-
-- Inserire un contatore per la raccolta dei dati per l'interfaccia pc, come è stato fatto per i sensori.
-
-- Controllare la funzionalità del reset

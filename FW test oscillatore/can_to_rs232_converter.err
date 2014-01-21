@@ -1,0 +1,19 @@
+Error[1131] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 652 : type mismatch in assignment
+Error[1131] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 666 : type mismatch in assignment
+Error[1131] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 688 : type mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 704 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 704 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 705 : suspicious pointer conversion
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 705 : suspicious pointer conversion
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 714 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 714 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 715 : suspicious pointer conversion
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 715 : suspicious pointer conversion
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 723 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 723 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 724 : suspicious pointer conversion
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 724 : suspicious pointer conversion
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 732 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 732 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 733 : suspicious pointer conversion
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\can_to_rs232_converter.c 733 : suspicious pointer conversion

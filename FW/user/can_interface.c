@@ -837,7 +837,7 @@ unsigned char can_error_handle()
   {
     can_status.buffer_tx_error_off = 0;
     return BUFFER_TX_BUS_OFF;
-  }
+  }/*
   else if(can_status.buffer_tx_error_passive)
   {
 	can_status.buffer_tx_error_passive = 0;
@@ -867,7 +867,7 @@ unsigned char can_error_handle()
   {
     can_status.error_invalid_message = 0;
     return INVALID_MESSAGE;
-  }
+  }*/
 
   return 0;
 }

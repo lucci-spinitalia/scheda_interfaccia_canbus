@@ -35,6 +35,7 @@
 #include <p18cxxx.h>
 #include "system\io_cfg.h"
 #include "user\can_to_rs232_converter.h"
+#include <timers.h>
 
 /** C O N F I G ************************************/
 
@@ -91,45 +92,21 @@
 **************************************************/
 void main(void)
 {
-  static unsigned int max_time = 0;
-  unsigned int timerl;
-  unsigned int timerh;
-
   initialize_system();
 
   can_uart_initialize();
 
-  T0CONbits.T08BIT = 0;
-  T0CONbits.T0CS = 0;
-  T0CONbits.PSA = 1;
-  T0CONbits.T0PS = 0;
-  TMR0L = 0;
+  OpenTimer0(TIMER_INT_ON & T0_16BIT & T0_SOURCE_INT & T0_PS_1_256);
   
   // initialize interrupt 
   INTCONbits.PEIE = 1;		// enable peripheral interrupts
   INTCONbits.GIE = 1;		// enable global interrupt
 
+  T0CONbits.TMR0ON = 1;
+
   while(1) 
   {
-    //ClrWdt();
-    // ProcessIO
-    //T0CONbits.TMR0ON = 1;
-    
     can_uart_loop();
-
-//    T0CONbits.TMR0ON = 0;
-//    timerl = TMR0L;
-//    timerh = TMR0H;
-//    timerh = (timerh << 8) | timerl;
-//
-//    if(timerh > max_time)
-//    {
-//      max_time = timerh;
-//      uart2_buffer_tx_seq_load(&max_time, sizeof(max_time));
-//    }
-//
-//    TMR0H = 0;
-//    TMR0L = 0;
   }
 
 }//main()

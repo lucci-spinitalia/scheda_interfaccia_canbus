@@ -1,0 +1,18 @@
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 894 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 894 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 898 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 898 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 902 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 902 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 906 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 906 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 910 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 910 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 914 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 914 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 918 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 918 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 922 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 922 : type qualifier mismatch in assignment
+Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 926 : suspicious pointer conversion
+Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\can_interface.c 926 : type qualifier mismatch in assignment

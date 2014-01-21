@@ -1,0 +1,107 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+CRYSTAL_FREQUENCY_MHZ::16	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	29;"	d	line:29
+FOSC_MHZ::CRYSTAL_FREQUENCY_MHZ	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	33;"	d	line:33
+FOSC_MHZ::CRYSTAL_FREQUENCY_MHZ*4	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	31;"	d	line:31
+INPUT_PIN::1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	38;"	d	line:38
+INTERRUPT_H	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\interrupt\interrupt.h	22;"	d	line:22
+MAX3160_DISABLE1::(max3160_shdn1=0)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	134;"	d	line:134
+MAX3160_DISABLE2::(max3160_shdn2=0)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	135;"	d	line:135
+MAX3160_ENABLE1::(max3160_shdn1=1)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	132;"	d	line:132
+MAX3160_ENABLE2::(max3160_shdn2=1)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	133;"	d	line:133
+MAX3160_ENABLE_RS232_1::{max3160_rs4851=0;max3160_full	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	146;"	d	line:146
+MAX3160_ENABLE_RS232_2::{max3160_rs4852=0;max3160_full	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	147;"	d	line:147
+MAX3160_ENABLE_RS422_1::{max3160_rs4851=1;max3160_full	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	144;"	d	line:144
+MAX3160_ENABLE_RS422_2::{max3160_rs4852=1;max3160_full	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	145;"	d	line:145
+MAX3160_ENABLE_RS485_1::{max3160_rs4851=1;max3160_full	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	142;"	d	line:142
+MAX3160_ENABLE_RS485_2::{max3160_rs4852=1;max3160_full	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	143;"	d	line:143
+MAX3160_FULL_DUPLEX1::(max3160_full1=0)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	149;"	d	line:149
+MAX3160_FULL_DUPLEX2::(max3160_full2=0)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	150;"	d	line:150
+MAX3160_HALF_DUPLEX1::(max3160_full1=1)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	151;"	d	line:151
+MAX3160_HALF_DUPLEX2::(max3160_full2=1)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	152;"	d	line:152
+MAX3160_SLEW_CRTL_OFF1::(max3160_fast1=1)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	137;"	d	line:137
+MAX3160_SLEW_CRTL_OFF2::(max3160_fast2=1)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	138;"	d	line:138
+MAX3160_SLEW_CRTL_ON1::(max3160_fast1=0)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	139;"	d	line:139
+MAX3160_SLEW_CRTL_ON2::(max3160_fast2=0)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	140;"	d	line:140
+MCP2551_TERMINATOR_DISABLE::(can_terminator=0)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	163;"	d	line:163
+MCP2551_TERMINATOR_ENABLE::(can_terminator=1)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	162;"	d	line:162
+OUTPUT_PIN::0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	39;"	d	line:39
+VERSION::31	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\version.h	70;"	d	line:70
+_GLOBAL_H	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\user\global.h	23;"	d	line:23
+_IO_CFG_H	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	23;"	d	line:23
+_MAIN_H	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\main.h	22;"	d	line:22
+button_sw2::PORTBbits.RB0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	74;"	d	line:74
+button_sw2_tris::TRISBbits.TRISB0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	73;"	d	line:73
+can_bus_res::PORTDbits.RD3	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	58;"	d	line:58
+can_bus_res_tris::TRISDbits.TRISD3	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	57;"	d	line:57
+can_bus_rx_tris::TRISBbits.TRISB3	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	55;"	d	line:55
+can_bus_tx_tris::TRISBbits.TRISB2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	53;"	d	line:53
+can_terminator::LATDbits.LATD3	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	159;"	d	line:159
+can_terminator_tris::TRISDbits.TRISD3	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	158;"	d	line:158
+high_isr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\interrupt\interrupt.h	30;"	p	line:30	signature:(void)
+i	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\interrupt\interrupt.c	30;"	v	line:30
+initialize_system	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\main.c	141;"	f	line:141	signature:(void)
+initialize_system	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\main.h	28;"	p	line:28	signature:(void)
+interrupt_at_high_vector	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\interrupt\interrupt.c	35;"	f	line:35	signature:(void)
+led_st1::LATDbits.LATD0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	63;"	d	line:63
+led_st1_tris::TRISDbits.TRISD0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	62;"	d	line:62
+led_st2::LATDbits.LATD1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	66;"	d	line:66
+led_st2_tris::TRISDbits.TRISD1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	65;"	d	line:65
+led_st3::LATDbits.LATD2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	69;"	d	line:69
+led_st3_tris::TRISDbits.TRISD2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	68;"	d	line:68
+low_isr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\interrupt\interrupt.h	29;"	p	line:29	signature:(void)
+main	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\main.c	93;"	f	line:93	signature:(void)
+main	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\main.h	27;"	p	line:27	signature:(void)
+max3160_fast1::LATAbits.LATA1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	111;"	d	line:111
+max3160_fast1_tris::TRISAbits.TRISA1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	110;"	d	line:110
+max3160_fast2::LATBbits.LATB1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	123;"	d	line:123
+max3160_fast2_tris::TRISBbits.TRISB1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	122;"	d	line:122
+max3160_full1::LATAbits.LATA5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	117;"	d	line:117
+max3160_full1_tris::TRISAbits.TRISA5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	116;"	d	line:116
+max3160_full2::LATEbits.LATE2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	129;"	d	line:129
+max3160_full2_tris::TRISEbits.TRISE2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	128;"	d	line:128
+max3160_rs4851::LATAbits.LATA2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	114;"	d	line:114
+max3160_rs4851_tris::TRISAbits.TRISA2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	113;"	d	line:113
+max3160_rs4852::LATBbits.LATB4	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	126;"	d	line:126
+max3160_rs4852_tris::TRISBbits.TRISB4	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	125;"	d	line:125
+max3160_shdn1::LATAbits.LATA0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	108;"	d	line:108
+max3160_shdn1_tris::TRISAbits.TRISA0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	107;"	d	line:107
+max3160_shdn2::LATBbits.LATB5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	120;"	d	line:120
+max3160_shdn2_tris::TRISBbits.TRISB5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	119;"	d	line:119
+max_time	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\main.c	95;"	l	line:95	file:
+mcp2551_rs	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	156;"	d	line:156
+mcp2551_rs_tris	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	155;"	d	line:155
+switch_sw1::PORTCbits.RC0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	79;"	d	line:79
+switch_sw1_to_sw6::PORTC	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	96;"	d	line:96
+switch_sw1_tris::TRISCbits.TRISC0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	78;"	d	line:78
+switch_sw2::PORTCbits.RC1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	82;"	d	line:82
+switch_sw2_tris::TRISCbits.TRISC1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	81;"	d	line:81
+switch_sw3::PORTCbits.RC2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	85;"	d	line:85
+switch_sw3_tris::TRISCbits.TRISC2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	84;"	d	line:84
+switch_sw4::PORTCbits.RC3	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	88;"	d	line:88
+switch_sw4_tris::TRISCbits.TRISC3	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	87;"	d	line:87
+switch_sw5::PORTCbits.RC4	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	91;"	d	line:91
+switch_sw5_tris::TRISCbits.TRISC4	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	90;"	d	line:90
+switch_sw6::PORTCbits.RC5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	94;"	d	line:94
+switch_sw6_tris::TRISCbits.TRISC5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	93;"	d	line:93
+switch_sw7::PORTEbits.RE0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	99;"	d	line:99
+switch_sw7_to_sw8::PORTE	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	104;"	d	line:104
+switch_sw7_tris::TRISEbits.TRISE0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	98;"	d	line:98
+switch_sw8::PORTEbits.RE1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	102;"	d	line:102
+switch_sw8_tris::TRISEbits.TRISE1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	101;"	d	line:101
+timerh	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\main.c	97;"	l	line:97
+timerl	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\main.c	96;"	l	line:96
+uart1_rs485_tx_enable::LATDbits.LATD4	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	45;"	d	line:45
+uart1_rs485_tx_enable_tris::TRISDbits.TRISD4	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	44;"	d	line:44
+uart1_rx_tris::TRISCbits.TRISC7	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	43;"	d	line:43
+uart1_tx_tris::TRISCbits.TRISC6	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	42;"	d	line:42
+uart2_rs485_tx_enable::LATDbits.LATD5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	50;"	d	line:50
+uart2_rs485_tx_enable_tris::TRISDbits.TRISD5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	49;"	d	line:49
+uart2_rx_tris::TRISDbits.TRISD7	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	48;"	d	line:48
+uart2_tx_tris::TRISDbits.TRISD6	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW test oscillatore\system\io_cfg.h	47;"	d	line:47

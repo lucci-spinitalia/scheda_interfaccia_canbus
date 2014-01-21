@@ -12,6 +12,11 @@
 * disclosure of such information is prohibited except
 * by express written agreement with Company.
 *
+* 21/01/2014 - Version 3.2
+*       * Modify chempro100 settings: now baudrate is set to 38400
+*       * Change led's meaning: led3 lid when there's can error or uart error
+*       * and led1 change status one time per second.
+*
 * 27/11/13 - Version 3.1
 *       * Add sass3100 device
 *       * Add version info to aswer to info request
@@ -67,5 +72,5 @@
 */
 
 #ifndef VERSION
-#define VERSION 31 //"Version 3.1"
+#define VERSION 32 //"Version 3.2"
 #endif //VERSION

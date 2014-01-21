@@ -1,5 +1,0 @@
-- Quando riceve dal SASS2300 salta il penultimo carattere
-- Se provo ad inviare un dato CAN da una funzione secondaria si blocca tutto
-- Quando ci sono due interfacce PC si blocca la comunicazione
-- se invio la stringa "0x24 0x06 0x22 0x61" il dispositivo in modalità pc (del tipo indicato nel campo indirizzo) comincia a trasmettere direttamente
-  i dati anche se non gli vengono passati i campi di inizio stringa etc.

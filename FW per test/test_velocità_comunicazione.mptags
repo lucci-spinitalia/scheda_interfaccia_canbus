@@ -6,141 +6,141 @@
 !_TAG_PROGRAM_VERSION	5.5.4	//
 !_TAG_REVISION_NAME	MCHPTags	//
 !_TAG_REVISION_VERSION	6.0.1	//
-CRYSTAL_FREQUENCY_MHZ::10	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	28;"	d	line:28
-FOSC_MHZ::CRYSTAL_FREQUENCY_MHZ	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	32;"	d	line:32
-FOSC_MHZ::CRYSTAL_FREQUENCY_MHZ*4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	30;"	d	line:30
-INPUT_PIN::1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	37;"	d	line:37
-INTERRUPT_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\interrupt\interrupt.h	22;"	d	line:22
-OUTPUT_PIN::0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	38;"	d	line:38
-UART1_BAUD_CONFIG::(BAUD_16_BIT_RATE&BAUD_AUTO_OF	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	32;"	d	line:32
-UART1_BAUD_RATE::115200	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	43;"	d	line:43
-UART1_CONFIG::USART_TX_INT_ON&USART_RX_INT_O	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	34;"	d	line:34
-UART1_INTERRUPT_RX::(UART1_CONFIG&0x40)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	38;"	d	line:38
-UART1_INTERRUPT_TX::(UART1_CONFIG&0x80)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	37;"	d	line:37
-UART2_BAUD_CONFIG::BAUD_16_BIT_RATE&BAUD_AUTO_OFF	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	33;"	d	line:33
-UART2_BAUD_RATE::115200	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	44;"	d	line:44
-UART2_CONFIG::USART_TX_INT_ON&USART_RX_INT_O	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	35;"	d	line:35
-UART2_INTERRUPT_RX::(UART2_CONFIG&0x40)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	40;"	d	line:40
-UART2_INTERRUPT_TX::(UART2_CONFIG&0x80)	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	39;"	d	line:39
-UART_BUFFER_SIZE_RX::32	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	30;"	d	line:30
-UART_BUFFER_SIZE_TX::32	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	29;"	d	line:29
-VERSION::"Version1.0"	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\version.h	31;"	d	line:31
-_GLOBAL_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\global.h	23;"	d	line:23
-_IO_CFG_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	23;"	d	line:23
-_UART_INTERFACE_H	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	23;"	d	line:23
-buffer_rx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	32;"	m	line:32	struct:uart_status	file:
-buffer_rx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	56;"	m	line:56	struct:uart_status
-buffer_rx_error	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	34;"	m	line:34	struct:uart_status	file:
-buffer_rx_error	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	58;"	m	line:58	struct:uart_status
-buffer_rx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	31;"	m	line:31	struct:uart_status	file:
-buffer_rx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	55;"	m	line:55	struct:uart_status
-buffer_rx_overflow	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	33;"	m	line:33	struct:uart_status	file:
-buffer_rx_overflow	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	57;"	m	line:57	struct:uart_status
-buffer_tx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	30;"	m	line:30	struct:uart_status	file:
-buffer_tx_empty	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	54;"	m	line:54	struct:uart_status
-buffer_tx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	29;"	m	line:29	struct:uart_status	file:
-buffer_tx_full	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	53;"	m	line:53	struct:uart_status
-button::PORTBbits.RB0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	75;"	d	line:75
-button_tris::TRISBbits.TRISB0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	74;"	d	line:74
-chTemp	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	459;"	l	line:459
-chTemp	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	521;"	l	line:521
-configuration_bit	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	747;"	l	line:747
-configuration_bit	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	789;"	l	line:789
-data	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\main.c	87;"	v	line:87
-freq_Hz	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	746;"	l	line:746
-freq_Hz	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	788;"	l	line:788
-high_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\interrupt\interrupt.h	30;"	p	line:30	signature:(void)
-i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\main.c	103;"	l	line:103
-i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	250;"	l	line:250
-i	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	281;"	l	line:281
-initialize_system	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\main.c	195;"	f	line:195	signature:(void)
-interrupt_at_high_vector	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\interrupt\interrupt.c	34;"	f	line:34	signature:(void)
-interrupt_flag::LATAbits.LATA5	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	46;"	d	line:46
-interrupt_tris::TRISAbits.TRISA5	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	45;"	d	line:45
-led_d0::LATDbits.LATD0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	71;"	d	line:71
-led_d1::LATDbits.LATD1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	68;"	d	line:68
-led_d2::LATDbits.LATD2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	65;"	d	line:65
-led_d3::LATDbits.LATD3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	62;"	d	line:62
-led_d4::LATDbits.LATD4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	59;"	d	line:59
-led_d5::LATDbits.LATD5	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	56;"	d	line:56
-led_d6::LATDbits.LATD6	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	53;"	d	line:53
-led_d7::LATDbits.LATD7	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	50;"	d	line:50
-low_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\interrupt\interrupt.h	29;"	p	line:29	signature:(void)
-main	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\main.c	101;"	f	line:101	signature:(void)
-num_can_message	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\main.c	90;"	v	line:90
-size_data	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\main.c	89;"	v	line:89
-timer0_reload	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\main.c	213;"	f	line:213	signature:(unsigned int timer_preload)
-timer0_reload	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\global.h	31;"	p	line:31	signature:(unsigned int timer_preload)
-timer_preload	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\main.c	91;"	v	line:91
-tris_LED_D0::TRISDbits.TRISD0	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	70;"	d	line:70
-tris_LED_D1::TRISDbits.TRISD1	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	67;"	d	line:67
-tris_LED_D2::TRISDbits.TRISD2	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	64;"	d	line:64
-tris_LED_D3::TRISDbits.TRISD3	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	61;"	d	line:61
-tris_LED_D4::TRISDbits.TRISD4	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	58;"	d	line:58
-tris_LED_D5::TRISDbits.TRISD5	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	55;"	d	line:55
-tris_LED_D6::TRISDbits.TRISD6	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	52;"	d	line:52
-tris_LED_D7::TRISDbits.TRISD7	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	49;"	d	line:49
-uart1_buad_rate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	744;"	f	line:744	signature:(unsigned long baud_rate, unsigned char freq_MHz)
-uart1_buad_rate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	85;"	p	line:85	signature:(unsigned long baud_rate, unsigned char freq_MHz)
-uart1_buffer_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	583;"	f	line:583	signature:(unsigned char *data_read)
-uart1_buffer_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	73;"	p	line:73	signature:(unsigned char *)
-uart1_buffer_rx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	48;"	v	line:48
-uart1_buffer_rx_data_cnt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	49;"	v	line:49
-uart1_buffer_rx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	457;"	f	line:457	signature:(void)
-uart1_buffer_rx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	74;"	p	line:74	signature:(void)
-uart1_buffer_rx_rd_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	51;"	v	line:51
-uart1_buffer_rx_wr_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	50;"	v	line:50
-uart1_buffer_send	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	308;"	f	line:308	signature:(void)
-uart1_buffer_send	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	77;"	p	line:77	signature:(void)
-uart1_buffer_tx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	43;"	v	line:43
-uart1_buffer_tx_data_cnt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	44;"	v	line:44
-uart1_buffer_tx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	165;"	f	line:165	signature:(unsigned char data_write)
-uart1_buffer_tx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	78;"	p	line:78	signature:(unsigned char)
-uart1_buffer_tx_rd_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	46;"	v	line:46
-uart1_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	248;"	f	line:248	signature:(unsigned char *data_write, unsigned int length)
-uart1_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	80;"	p	line:80	signature:(unsigned char *data_write, unsigned int length)
-uart1_buffer_tx_wr_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	45;"	v	line:45
-uart1_get_rx_data_size	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	670;"	f	line:670	signature:(void)
-uart1_get_rx_data_size	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	75;"	p	line:75	signature:(void)
-uart1_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	416;"	f	line:416	signature:(void)
-uart1_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	82;"	p	line:82	signature:(void)
-uart1_init	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	73;"	f	line:73	signature:(void)
-uart1_init	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	88;"	p	line:88	signature:(void)
-uart1_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	709;"	f	line:709	signature:(void)
-uart1_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	87;"	p	line:87	signature:(void)
-uart1_open::Open1USART(UART1_CONFIG,uart1_	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	47;"	d	line:47
-uart1_rx_tris::TRISCbits.TRISC7	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	42;"	d	line:42
-uart1_status	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	40;"	v	line:40
-uart1_tx_tris::TRISCbits.TRISC6	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\system\io_cfg.h	41;"	d	line:41
-uart2_buad_rate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	786;"	f	line:786	signature:(unsigned long baud_rate, unsigned char freq_MHz)
-uart2_buad_rate_set	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	103;"	p	line:103	signature:(unsigned long baud_rate, unsigned char freq_MHz)
-uart2_buffer_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	628;"	f	line:628	signature:(unsigned char *data_read)
-uart2_buffer_read	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	90;"	p	line:90	signature:(unsigned char *)
-uart2_buffer_rx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	58;"	v	line:58
-uart2_buffer_rx_data_cnt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	59;"	v	line:59
-uart2_buffer_rx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	519;"	f	line:519	signature:(void)
-uart2_buffer_rx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	91;"	p	line:91	signature:(void)
-uart2_buffer_rx_rd_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	61;"	v	line:61
-uart2_buffer_rx_wr_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	60;"	v	line:60
-uart2_buffer_send	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	361;"	f	line:361	signature:(void)
-uart2_buffer_send	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	94;"	p	line:94	signature:(void)
-uart2_buffer_tx	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	53;"	v	line:53
-uart2_buffer_tx_data_cnt	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	54;"	v	line:54
-uart2_buffer_tx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	206;"	f	line:206	signature:(unsigned char data_write)
-uart2_buffer_tx_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	95;"	p	line:95	signature:(unsigned char data_write)
-uart2_buffer_tx_rd_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	56;"	v	line:56
-uart2_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	279;"	f	line:279	signature:(unsigned char *data_write, unsigned int length)
-uart2_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	97;"	p	line:97	signature:(unsigned char *data_write, unsigned int length)
-uart2_buffer_tx_wr_ptr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	55;"	v	line:55
-uart2_get_rx_data_size	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	685;"	f	line:685	signature:(void)
-uart2_get_rx_data_size	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	92;"	p	line:92	signature:(void)
-uart2_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	436;"	f	line:436	signature:(void)
-uart2_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	99;"	p	line:99	signature:(void)
-uart2_init	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	118;"	f	line:118	signature:(void)
-uart2_init	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	106;"	p	line:106	signature:(void)
-uart2_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	836;"	f	line:836	signature:(void)
-uart2_isr	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	105;"	p	line:105	signature:(void)
-uart2_open::Open2USART(UART2_CONFIG,uart2_	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	48;"	d	line:48
-uart2_status	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	41;"	v	line:41
-uart_status	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.c	27;"	s	line:27	file:
-uart_status	C:\Users\Luca Lucci\Documents\Scheda_interfaccia_CANBUS\FW per test\user\uart_interface.h	51;"	s	line:51
+CRYSTAL_FREQUENCY_MHZ::10	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	28;"	d	line:28
+FOSC_MHZ::CRYSTAL_FREQUENCY_MHZ	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	32;"	d	line:32
+FOSC_MHZ::CRYSTAL_FREQUENCY_MHZ*4	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	30;"	d	line:30
+INPUT_PIN::1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	37;"	d	line:37
+INTERRUPT_H	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\interrupt\interrupt.h	22;"	d	line:22
+OUTPUT_PIN::0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	38;"	d	line:38
+UART1_BAUD_CONFIG::(BAUD_16_BIT_RATE&BAUD_AUTO_OF	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	32;"	d	line:32
+UART1_BAUD_RATE::115200	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	43;"	d	line:43
+UART1_CONFIG::USART_TX_INT_ON&USART_RX_INT_O	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	34;"	d	line:34
+UART1_INTERRUPT_RX::(UART1_CONFIG&0x40)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	38;"	d	line:38
+UART1_INTERRUPT_TX::(UART1_CONFIG&0x80)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	37;"	d	line:37
+UART2_BAUD_CONFIG::BAUD_16_BIT_RATE&BAUD_AUTO_OFF	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	33;"	d	line:33
+UART2_BAUD_RATE::115200	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	44;"	d	line:44
+UART2_CONFIG::USART_TX_INT_ON&USART_RX_INT_O	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	35;"	d	line:35
+UART2_INTERRUPT_RX::(UART2_CONFIG&0x40)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	40;"	d	line:40
+UART2_INTERRUPT_TX::(UART2_CONFIG&0x80)	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	39;"	d	line:39
+UART_BUFFER_SIZE_RX::32	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	30;"	d	line:30
+UART_BUFFER_SIZE_TX::32	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	29;"	d	line:29
+VERSION::"Version1.0"	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\version.h	31;"	d	line:31
+_GLOBAL_H	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\global.h	23;"	d	line:23
+_IO_CFG_H	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	23;"	d	line:23
+_UART_INTERFACE_H	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	23;"	d	line:23
+buffer_rx_empty	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	32;"	m	line:32	struct:uart_status	file:
+buffer_rx_empty	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	56;"	m	line:56	struct:uart_status
+buffer_rx_error	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	34;"	m	line:34	struct:uart_status	file:
+buffer_rx_error	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	58;"	m	line:58	struct:uart_status
+buffer_rx_full	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	31;"	m	line:31	struct:uart_status	file:
+buffer_rx_full	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	55;"	m	line:55	struct:uart_status
+buffer_rx_overflow	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	33;"	m	line:33	struct:uart_status	file:
+buffer_rx_overflow	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	57;"	m	line:57	struct:uart_status
+buffer_tx_empty	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	30;"	m	line:30	struct:uart_status	file:
+buffer_tx_empty	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	54;"	m	line:54	struct:uart_status
+buffer_tx_full	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	29;"	m	line:29	struct:uart_status	file:
+buffer_tx_full	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	53;"	m	line:53	struct:uart_status
+button::PORTBbits.RB0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	75;"	d	line:75
+button_tris::TRISBbits.TRISB0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	74;"	d	line:74
+chTemp	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	459;"	l	line:459
+chTemp	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	521;"	l	line:521
+configuration_bit	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	747;"	l	line:747
+configuration_bit	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	789;"	l	line:789
+data	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\main.c	87;"	v	line:87
+freq_Hz	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	746;"	l	line:746
+freq_Hz	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	788;"	l	line:788
+high_isr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\interrupt\interrupt.h	30;"	p	line:30	signature:(void)
+i	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\main.c	103;"	l	line:103
+i	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	250;"	l	line:250
+i	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	281;"	l	line:281
+initialize_system	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\main.c	195;"	f	line:195	signature:(void)
+interrupt_at_high_vector	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\interrupt\interrupt.c	34;"	f	line:34	signature:(void)
+interrupt_flag::LATAbits.LATA5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	46;"	d	line:46
+interrupt_tris::TRISAbits.TRISA5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	45;"	d	line:45
+led_d0::LATDbits.LATD0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	71;"	d	line:71
+led_d1::LATDbits.LATD1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	68;"	d	line:68
+led_d2::LATDbits.LATD2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	65;"	d	line:65
+led_d3::LATDbits.LATD3	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	62;"	d	line:62
+led_d4::LATDbits.LATD4	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	59;"	d	line:59
+led_d5::LATDbits.LATD5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	56;"	d	line:56
+led_d6::LATDbits.LATD6	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	53;"	d	line:53
+led_d7::LATDbits.LATD7	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	50;"	d	line:50
+low_isr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\interrupt\interrupt.h	29;"	p	line:29	signature:(void)
+main	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\main.c	101;"	f	line:101	signature:(void)
+num_can_message	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\main.c	90;"	v	line:90
+size_data	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\main.c	89;"	v	line:89
+timer0_reload	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\main.c	213;"	f	line:213	signature:(unsigned int timer_preload)
+timer0_reload	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\global.h	31;"	p	line:31	signature:(unsigned int timer_preload)
+timer_preload	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\main.c	91;"	v	line:91
+tris_LED_D0::TRISDbits.TRISD0	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	70;"	d	line:70
+tris_LED_D1::TRISDbits.TRISD1	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	67;"	d	line:67
+tris_LED_D2::TRISDbits.TRISD2	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	64;"	d	line:64
+tris_LED_D3::TRISDbits.TRISD3	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	61;"	d	line:61
+tris_LED_D4::TRISDbits.TRISD4	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	58;"	d	line:58
+tris_LED_D5::TRISDbits.TRISD5	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	55;"	d	line:55
+tris_LED_D6::TRISDbits.TRISD6	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	52;"	d	line:52
+tris_LED_D7::TRISDbits.TRISD7	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	49;"	d	line:49
+uart1_buad_rate_set	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	744;"	f	line:744	signature:(unsigned long baud_rate, unsigned char freq_MHz)
+uart1_buad_rate_set	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	85;"	p	line:85	signature:(unsigned long baud_rate, unsigned char freq_MHz)
+uart1_buffer_read	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	583;"	f	line:583	signature:(unsigned char *data_read)
+uart1_buffer_read	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	73;"	p	line:73	signature:(unsigned char *)
+uart1_buffer_rx	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	48;"	v	line:48
+uart1_buffer_rx_data_cnt	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	49;"	v	line:49
+uart1_buffer_rx_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	457;"	f	line:457	signature:(void)
+uart1_buffer_rx_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	74;"	p	line:74	signature:(void)
+uart1_buffer_rx_rd_ptr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	51;"	v	line:51
+uart1_buffer_rx_wr_ptr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	50;"	v	line:50
+uart1_buffer_send	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	308;"	f	line:308	signature:(void)
+uart1_buffer_send	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	77;"	p	line:77	signature:(void)
+uart1_buffer_tx	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	43;"	v	line:43
+uart1_buffer_tx_data_cnt	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	44;"	v	line:44
+uart1_buffer_tx_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	165;"	f	line:165	signature:(unsigned char data_write)
+uart1_buffer_tx_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	78;"	p	line:78	signature:(unsigned char)
+uart1_buffer_tx_rd_ptr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	46;"	v	line:46
+uart1_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	248;"	f	line:248	signature:(unsigned char *data_write, unsigned int length)
+uart1_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	80;"	p	line:80	signature:(unsigned char *data_write, unsigned int length)
+uart1_buffer_tx_wr_ptr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	45;"	v	line:45
+uart1_get_rx_data_size	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	670;"	f	line:670	signature:(void)
+uart1_get_rx_data_size	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	75;"	p	line:75	signature:(void)
+uart1_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	416;"	f	line:416	signature:(void)
+uart1_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	82;"	p	line:82	signature:(void)
+uart1_init	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	73;"	f	line:73	signature:(void)
+uart1_init	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	88;"	p	line:88	signature:(void)
+uart1_isr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	709;"	f	line:709	signature:(void)
+uart1_isr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	87;"	p	line:87	signature:(void)
+uart1_open::Open1USART(UART1_CONFIG,uart1_	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	47;"	d	line:47
+uart1_rx_tris::TRISCbits.TRISC7	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	42;"	d	line:42
+uart1_status	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	40;"	v	line:40
+uart1_tx_tris::TRISCbits.TRISC6	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\system\io_cfg.h	41;"	d	line:41
+uart2_buad_rate_set	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	786;"	f	line:786	signature:(unsigned long baud_rate, unsigned char freq_MHz)
+uart2_buad_rate_set	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	103;"	p	line:103	signature:(unsigned long baud_rate, unsigned char freq_MHz)
+uart2_buffer_read	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	628;"	f	line:628	signature:(unsigned char *data_read)
+uart2_buffer_read	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	90;"	p	line:90	signature:(unsigned char *)
+uart2_buffer_rx	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	58;"	v	line:58
+uart2_buffer_rx_data_cnt	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	59;"	v	line:59
+uart2_buffer_rx_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	519;"	f	line:519	signature:(void)
+uart2_buffer_rx_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	91;"	p	line:91	signature:(void)
+uart2_buffer_rx_rd_ptr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	61;"	v	line:61
+uart2_buffer_rx_wr_ptr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	60;"	v	line:60
+uart2_buffer_send	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	361;"	f	line:361	signature:(void)
+uart2_buffer_send	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	94;"	p	line:94	signature:(void)
+uart2_buffer_tx	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	53;"	v	line:53
+uart2_buffer_tx_data_cnt	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	54;"	v	line:54
+uart2_buffer_tx_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	206;"	f	line:206	signature:(unsigned char data_write)
+uart2_buffer_tx_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	95;"	p	line:95	signature:(unsigned char data_write)
+uart2_buffer_tx_rd_ptr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	56;"	v	line:56
+uart2_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	279;"	f	line:279	signature:(unsigned char *data_write, unsigned int length)
+uart2_buffer_tx_seq_load	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	97;"	p	line:97	signature:(unsigned char *data_write, unsigned int length)
+uart2_buffer_tx_wr_ptr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	55;"	v	line:55
+uart2_get_rx_data_size	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	685;"	f	line:685	signature:(void)
+uart2_get_rx_data_size	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	92;"	p	line:92	signature:(void)
+uart2_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	436;"	f	line:436	signature:(void)
+uart2_get_tx_buffer_empty_space	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	99;"	p	line:99	signature:(void)
+uart2_init	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	118;"	f	line:118	signature:(void)
+uart2_init	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	106;"	p	line:106	signature:(void)
+uart2_isr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	836;"	f	line:836	signature:(void)
+uart2_isr	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	105;"	p	line:105	signature:(void)
+uart2_open::Open2USART(UART2_CONFIG,uart2_	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	48;"	d	line:48
+uart2_status	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	41;"	v	line:41
+uart_status	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.c	27;"	s	line:27	file:
+uart_status	C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW per test\user\uart_interface.h	51;"	s	line:51

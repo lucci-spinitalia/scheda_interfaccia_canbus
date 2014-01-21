@@ -1,8 +1,8 @@
-Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c 1007 : suspicious pointer conversion
-Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c 1007 : type qualifier mismatch in assignment
-Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c 1011 : suspicious pointer conversion
-Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c 1011 : type qualifier mismatch in assignment
-Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c 1069 : suspicious pointer conversion
-Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c 1069 : type qualifier mismatch in assignment
-Warning[2054] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c 1073 : suspicious pointer conversion
-Warning[2066] D:\Documenti\Scheda_interfaccia_CANBUS\FW\user\uart_interface.c 1073 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW\user\uart_interface.c 1007 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW\user\uart_interface.c 1007 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW\user\uart_interface.c 1011 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW\user\uart_interface.c 1011 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW\user\uart_interface.c 1069 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW\user\uart_interface.c 1069 : type qualifier mismatch in assignment
+Warning[2054] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW\user\uart_interface.c 1073 : suspicious pointer conversion
+Warning[2066] C:\Users\Luca Lucci\Documents\scheda_interfaccia_canbus\FW\user\uart_interface.c 1073 : type qualifier mismatch in assignment
